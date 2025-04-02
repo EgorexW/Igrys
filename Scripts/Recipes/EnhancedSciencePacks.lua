@@ -23,6 +23,7 @@ local function CreateRecipe(recipe, sciencePack)
         icon = "__Igrys__/Assets/Entity/ScienceEnhancerMachine.png",
         icon_size = 600,
         hidden = true,
+        localised_name = { "technology-name.igrys-enriched-science-pack", recipe.localised_name or { "item-name." .. sciencePack.name}},
         effects = {
             {
                 type = "unlock-recipe",
@@ -37,12 +38,12 @@ local function CreateRecipe(recipe, sciencePack)
             count = 1
         },
     }
+    if newRecipe.ingredients then
+        table.insert(newRecipe.ingredients, {type = "fluid", name = "igrys-magic-fluid", amount = 2})
 
-    newRecipe.ingredients = newRecipe.ingredients or {}
-    table.insert(newRecipe.ingredients, {type = "fluid", name = "igrys-magic-fluid", amount = 2})
-
-    data:extend{newRecipe, newTech}
-    log("New enriched recipe added for " .. recipe.name)
+        data:extend{newRecipe, newTech}
+        log("New enriched recipe added for " .. recipe.name)
+    end
 end
 
 

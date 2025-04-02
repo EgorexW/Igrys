@@ -35,8 +35,8 @@ data:extend({
         enabled = settings.startup["igrys-enable-all"].value,
         allow_productivity = false,
         ingredients = {
-            {type="item", name="igrys-strong-barrel", amount=1},
-            {type="fluid", name="igrys-magic-fluid", amount=10}
+            {type="item", name="igrys-strong-barrel", amount=1, ignored_by_stats=1},
+            {type="fluid", name="igrys-magic-fluid", amount=10, ignored_by_stats=10}
         },
         results = {
             {type="item", name="igrys-strong-barrel-filled-magic-fluid", amount=1},
@@ -53,8 +53,8 @@ data:extend({
             {type="item", name="igrys-strong-barrel-filled-magic-fluid", amount=1},
         },
         results = {
-            {type="item", name="igrys-strong-barrel", amount=1},
-            {type="fluid", name="igrys-magic-fluid", amount=10}
+            {type="item", name="igrys-strong-barrel", amount=1, ignored_by_stats=1},
+            {type="fluid", name="igrys-magic-fluid", amount=10, ignored_by_stats=10}
         },
         energy_required = 1,
         category = "crafting-with-fluid",

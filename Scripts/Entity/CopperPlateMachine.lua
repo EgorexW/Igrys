@@ -8,9 +8,13 @@ data:extend({
         
         fixed_recipe = "igrys-free-copper-plate",
         energy_usage = "1MW",
-        crafting_speed = 1,
+        crafting_speed = 2,
         crafting_categories = {"igrys-making-stuff-out-of-thin-air"},
-        energy_source = {type = "electric", usage_priority = "secondary-input"},
+        energy_source = {
+            type = "electric", 
+            usage_priority = "secondary-input",
+            drain = "0W",
+        },
         
         subgroup = "extraction-machine",
         
@@ -66,9 +70,11 @@ local restrictedRecipe =
             {type="item", name="igrys-copper-plate-machine", amount=1},
         },
         energy_required = 30,
-        category = "advanced-crafting",
+        category = "crafting",
         subgroup = "igrys-machine",
     }
 
 data:extend{restrictedRecipe}
 PlanetsLib.restrict_to_planet(data.raw["assembling-machine"]["igrys-copper-plate-machine"], "igrys")
+
+-- Todo add circuit network support

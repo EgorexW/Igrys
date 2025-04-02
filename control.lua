@@ -1,0 +1,1 @@
+require("Scripts.Control.CopperPlateMachine")
