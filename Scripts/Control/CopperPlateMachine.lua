@@ -12,7 +12,7 @@ script.on_event(defines.events.on_built_entity,
 
 function Turn(on)
     storage.on = on
-    game.print("Turning " .. tostring(on) .. " copper plate machines")
+    --game.print("Turning " .. tostring(on) .. " copper plate machines")
     local igrysSurface = game.surfaces["igrys"]
     for _, machine in ipairs(igrysSurface.find_entities_filtered{name = "igrys-copper-plate-machine"}) do
         machine.active = on

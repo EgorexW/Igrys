@@ -253,3 +253,5 @@ data:extend{
         map_grid = false
     },
 }
+
+-- Todo add tint to the sprite
