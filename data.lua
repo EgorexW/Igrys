@@ -25,5 +25,7 @@ require("Scripts.Items.Cermet")
 
 require("Scripts.Fluids.MagicFluid")
 
+require("Scripts.Tiles.MagicField")
+
 require("Scripts.Other.Technologies")
 require("Scripts.Other.Groups")
