@@ -220,6 +220,7 @@ data:extend({
             }
         },
         prerequisites = {
+            "metallurgic-science-pack",
             "igrys-glassworking-2",
         },
         unit = {
