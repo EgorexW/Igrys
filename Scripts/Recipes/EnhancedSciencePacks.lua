@@ -43,11 +43,13 @@ else
     -- Collect all science pack names into a list
     for _, item in ipairs(items) do
         item = data.raw["tool"][item] -- Get the item object
-        if (item.auto_enrich == false) then
-            log("Auto enrich false for " .. item.name)
-        else
-            log("Found science pack " .. item.name)
-            table.insert(sciencePacks, item) -- Store the full item object
+        if item then
+            if (item.auto_enrich == false) then
+                log("Auto enrich false for " .. item.name)
+            else
+                log("Found science pack " .. item.name)
+                table.insert(sciencePacks, item) -- Store the full item object
+            end
         end
     end
 
