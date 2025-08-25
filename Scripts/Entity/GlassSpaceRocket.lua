@@ -4,7 +4,6 @@ local rocket_shift = 48
 local glassSpaceRocketEntity = table.deepcopy(data.raw["rocket-silo"]["rocket-silo"])
 glassSpaceRocketEntity.name = "igrys-glass-space-rocket"
 glassSpaceRocketEntity.minable.result = "igrys-glass-space-rocket"
-glassSpaceRocketEntity.rocket_parts_required = 20
 glassSpaceRocketEntity.fixed_recipe = "igrys-glass-rocket-part"
 glassSpaceRocketEntity.icons = {
     {
@@ -47,7 +46,7 @@ glassSpaceRocketRecipe.ingredients = {
     {type="item", name="igrys-glass", amount=1000},
     {type="item", name="steel-plate", amount=1000},
     {type="item", name="electric-engine-unit", amount=200},
-    {type="item", name="igrys-rich-magic-teseract", amount=20},
+    {type="item", name="igrys-magic-teseract", amount=50},
     {type="item", name="igrys-conductive-brick", amount=200}
 }
 glassSpaceRocketRecipe.main_product = "igrys-glass-space-rocket"
@@ -62,6 +61,7 @@ glassRocketPartRecipe.icons = {
     }
 }
 glassSpaceRocketRecipe.icon = nil
+glassRocketPartRecipe.results = {{type="item", name="rocket-part", amount=3}}
 
 table.insert(glassRocketPartRecipe.ingredients, {type="item", name="igrys-glass", amount=5})
 

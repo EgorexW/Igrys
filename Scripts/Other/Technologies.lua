@@ -349,16 +349,11 @@ data:extend({
             }
         },
         prerequisites = {
-            "igrys-rich-magic-teseract",
+            "igrys-mineral-science",
         },
         unit = {
-            count = 1000,
+            count = 500,
             ingredients = {
-                { "automation-science-pack", 1 },
-                { "logistic-science-pack", 1 },
-                { "chemical-science-pack", 1 },
-                { "production-science-pack", 1 },
-                { "metallurgic-science-pack", 1 },
                 { "igrys-mineral-science-pack", 1 }
             },
             time = 60,
@@ -375,7 +370,7 @@ data:extend({
             }
         },
         prerequisites = {
-            "igrys-mineral-science",
+            "igrys-rich-magic-teseract",
         },
         unit = {
             count = 1000,

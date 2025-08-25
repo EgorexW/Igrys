@@ -6,13 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Entity/GlassSpaceRocket.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Entity/GlassSpaceRocket.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Other/BaseIntegration.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/BaseIntegration.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Planet.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Planet.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Tiles.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Tiles.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/EnhancedSciencePacks.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/EnhancedSciencePacks.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/VariantCopper.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/VariantCopper.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locale/en/whatever.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/locale/en/whatever.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +28,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;EgorexW&quot;
-  }
-}</component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
+    {
+      "id": {
+        "id": "PR_kwDOOLPaUc6kezAU",
+        "number": 11
+      },
+      "lastSeen": 1756140770908
+    }
+  ]
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/EgorexW/Igrys.git&quot;,

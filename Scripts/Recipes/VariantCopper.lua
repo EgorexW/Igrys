@@ -70,6 +70,7 @@ data:extend{
         {
             {type = "item", name = "plastic-bar", amount = 1}
         },
+        order = "b[chemistry]-b[plastic-bar]-c[igrys-variant]",
         icons = MadeFromIcons(data.raw["item"]["plastic-bar"].icon, data.raw["item"]["igrys-glass"].icon),
         allow_productivity = true,
         allow_as_intermediate = false,

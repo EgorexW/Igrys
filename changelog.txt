@@ -1,4 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.5
+Date: 2025-08-25
+  Tweaks:
+    - Metallurgic science prerequisite to glassworking 3
+    - Removed obsolete files from the mod zip
+    - Moved the plastic bar recipe behind the base one
+    - Made the glass rocket silo require 50 parts, but the glass rocket part recipe create 3 parts instead of 1, aka a slight buff and simplification
+    - Glass rocket silo tech requires only mineral science pack, now you are able to build it, without needing to export it via base rocket silo first
+    - For the same reason, glass rocket silo no longer needs rich teseracts, base ones instead
+    - Added mineral science pack to the research productivity and promethium science pack, took me 2 months to realize, that planets lib is no longer doing that
+    - Moved the science enhancer machine behind the rich teseract tech, because well it requires rich teseracts to build
+  Bugfixes:
+    - Compatibility with Krastorio's mineral pumpjack
+    - Fix for Super Farm, check against null science packs
+---------------------------------------------------------------------------------------------------
 Version: 1.5.4
 Date: 2025-07-16
   Tweaks:
