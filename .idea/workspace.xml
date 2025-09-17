@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/build-zip.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Entity/GlassSpaceRocket.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Entity/GlassSpaceRocket.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Other/BaseIntegration.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/BaseIntegration.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/VariantCopper.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/VariantCopper.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
     </list>
@@ -28,20 +26,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDOOLPaUc6kezAU",
-        "number": 11
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOOLPaUc6kezAU&quot;,
+        &quot;number&quot;: 11
       },
-      "lastSeen": 1756140770908
+      &quot;lastSeen&quot;: 1756140770908
     }
   ]
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/EgorexW/Igrys.git&quot;,
@@ -69,7 +67,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
   <component name="TaskManager">
@@ -84,6 +83,9 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sh" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -99,7 +101,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Bump version to 1.5.1 and add Spanish translation" />
     <MESSAGE value="1.5.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5.2" />
+    <MESSAGE value="1.5.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.5.5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

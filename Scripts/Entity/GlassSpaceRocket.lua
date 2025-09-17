@@ -5,6 +5,7 @@ local glassSpaceRocketEntity = table.deepcopy(data.raw["rocket-silo"]["rocket-si
 glassSpaceRocketEntity.name = "igrys-glass-space-rocket"
 glassSpaceRocketEntity.minable.result = "igrys-glass-space-rocket"
 glassSpaceRocketEntity.fixed_recipe = "igrys-glass-rocket-part"
+glassSpaceRocketEntity.rocket_parts_required = 20
 glassSpaceRocketEntity.icons = {
     {
         icon = glassSpaceRocketEntity.icon,
@@ -61,7 +62,6 @@ glassRocketPartRecipe.icons = {
     }
 }
 glassSpaceRocketRecipe.icon = nil
-glassRocketPartRecipe.results = {{type="item", name="rocket-part", amount=3}}
 
 table.insert(glassRocketPartRecipe.ingredients, {type="item", name="igrys-glass", amount=5})
 
