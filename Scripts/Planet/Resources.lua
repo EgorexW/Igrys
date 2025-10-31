@@ -4,7 +4,8 @@ data:extend{
     {
         type = "resource",
         name = "igrys-stone",
-        icon = "__base__/graphics/icons/stone.png",
+        icon = "__Igrys__/Assets/Tiles/Ore/hardstone-icon.png",
+        --icon_size = 128,
         flags = {"placeable-neutral"},
         order="a-b-b",
         tree_removal_probability = 0.8,
@@ -25,16 +26,38 @@ data:extend{
         stage_counts = {15000, 9500, 5500, 2900, 1300, 400, 150, 80},
         stages =
         {
-            sheet =
-            {
-                filename = "__base__/graphics/entity/stone/stone.png",
-                priority = "extra-high",
-                size = 128,
-                frame_count = 8,
-                variation_count = 8,
-                scale = 0.5
+            sheets ={
+                {
+                    filename = "__Igrys__/Assets/Tiles/Ore/hardstone.png",
+                    priority = "extra-high",
+                    width = 128,
+                    height = 128,
+                    frame_count = 3,
+                    variation_count = 8,
+                    scale = 0.5
+                }
             }
         },
+        stages_effect =
+        {
+            sheet =
+            {
+                filename = "__Igrys__/Assets/Tiles/Ore/hardstone-glow.png",
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                frame_count = 3,
+                variation_count = 8,
+                scale = 0.5,
+                blend_mode = "additive",
+                flags = {"light"}
+            }
+        },
+        effect_animation_period = 5,
+        effect_animation_period_deviation = 1,
+        effect_darkness_multiplier = 3.6,
+        min_effect_alpha = 0.2,
+        max_effect_alpha = 0.3,
         map_color = {0.690, 0.611, 0.427},
         mining_visualisation_tint = {r = 0.984, g = 0.883, b = 0.646, a = 1.000},
     },

@@ -73,3 +73,4 @@ data:extend({
 })
 
 PlanetsLib.borrow_music(data.raw["planet"]["nauvis"], data.raw["planet"]["igrys"])
+data:extend{PlanetsLib.visit_planet_achievement(data.raw["planet"]["igrys"], "__Igrys__/Assets/Other/achievement.png")}

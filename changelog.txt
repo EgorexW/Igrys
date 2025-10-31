@@ -1,4 +1,30 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.10
+Date: 
+  Features:
+    - Hard Stone patches have a new look
+    - Glass has a new look and is now magic glass
+  Tweaks:
+    - Buffed alternative red science pack, gives 8 packs instead of 5
+    - Buffed result number for alternative: green circuit, rail
+    - Rich Magic Part 3 requires 1 Cermite instead of 3
+  Bugfixes:
+    - Green Circuit is now craftable in the electronics machine
+---------------------------------------------------------------------------------------------------
+Version: 1.5.9
+Date: 2025-10-21
+  Bugfixes:
+    - Fixed Krastorio 2 compatibility after it's update
+---------------------------------------------------------------------------------------------------
+Version: 1.5.8
+Date: 2025-10-15
+  Features:
+    - Added achievement for visiting Igrys
+  Tweaks:
+    - Fixed tesseract spelling
+  Bugfixes:
+    - Fixed error when loading with Nexus, checking if promethium science pack.unit not nil
+---------------------------------------------------------------------------------------------------
 Version: 1.5.7
 Date: 2025-08-25
   Features:

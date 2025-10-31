@@ -34,7 +34,7 @@ data:extend({
         allow_productivity = true,
         ingredients = {
             {type="item", name="igrys-magic-part-3", amount=1},
-            {type="item", name="igrys-cermite", amount=3}
+            {type="item", name="igrys-cermite", amount=1}
         },
         results = {
             {type="item", name="igrys-rich-magic-part-3", amount=1},

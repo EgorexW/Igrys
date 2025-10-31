@@ -35,7 +35,6 @@ data:extend({
         type = "technology",
         name = "igrys-glassworking",
         icon = "__Igrys__/Assets/Technologies/glassworking.png",
-        icon_size = 1024,
         effects = {
             {
                 type = "unlock-recipe",
@@ -59,7 +58,6 @@ data:extend({
         type = "technology",
         name = "igrys-glassworking-2",
         icon = "__Igrys__/Assets/Technologies/glassworking.png",
-        icon_size = 1024,
         effects = {
             {
                 type = "unlock-recipe",
@@ -212,7 +210,6 @@ data:extend({
         type = "technology",
         name = "igrys-glassworking-3",
         icon = "__Igrys__/Assets/Technologies/glassworking.png",
-        icon_size = 1024,
         effects = {
             {
                 type = "unlock-recipe",

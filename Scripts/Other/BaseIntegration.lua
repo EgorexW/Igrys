@@ -7,7 +7,9 @@ table.insert(data.raw["lab"]["biolab"].inputs, "igrys-mineral-science-pack")
 
 -- Tech
 table.insert(data.raw["technology"]["promethium-science-pack"].prerequisites, "igrys-mineral-science")
-table.insert(data.raw["technology"]["promethium-science-pack"].unit.ingredients, {"igrys-mineral-science-pack", 1})
+if data.raw["technology"]["promethium-science-pack"].unit ~= nil then
+    table.insert(data.raw["technology"]["promethium-science-pack"].unit.ingredients, {"igrys-mineral-science-pack", 1})
+end
 table.insert(data.raw["technology"]["research-productivity"].unit.ingredients, {"igrys-mineral-science-pack", 1})
 
 -- Productivity Research
