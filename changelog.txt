@@ -1,6 +1,17 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.12
+Date: 2025-11-01
+  Bugfixes:
+    - Removed optional dependencies, moved compatibility changes to data-updates, hopefully fixes cyclic dependencies issue
+---------------------------------------------------------------------------------------------------
+Version: 1.5.11
+Date: 2025-10-31
+  Bugfixes:
+    - Compatibility with (Dredgeworks?) Deep Igrys Stone
+    - Compatibility with Planetaris Arig, reintroducing the referenced setting, marking as hidden
+---------------------------------------------------------------------------------------------------
 Version: 1.5.10
-Date: 
+Date: 2025-10-31
   Features:
     - Hard Stone patches have a new look
     - Glass has a new look and is now magic glass

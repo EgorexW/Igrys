@@ -21,5 +21,12 @@ data:extend({
         name = "igrys-keep-diagonal-inserter-base",
         setting_type = "startup",
         default_value = false
+    }, {
+        type = "bool-setting",
+        name = "igrys-unique-glass",
+        localised_description = {"mod-setting-description.igrys-unique-glass"},
+        setting_type = "startup",
+        default_value = false,
+        hidden = true
     }
 })

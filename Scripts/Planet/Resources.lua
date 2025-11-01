@@ -26,7 +26,7 @@ data:extend{
         stage_counts = {15000, 9500, 5500, 2900, 1300, 400, 150, 80},
         stages =
         {
-            sheets ={
+            sheet =
                 {
                     filename = "__Igrys__/Assets/Tiles/Ore/hardstone.png",
                     priority = "extra-high",
@@ -36,7 +36,6 @@ data:extend{
                     variation_count = 8,
                     scale = 0.5
                 }
-            }
         },
         stages_effect =
         {
