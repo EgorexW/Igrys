@@ -12,7 +12,30 @@ local function CreateRecipe(recipe, sciencePack)
         newRecipe.hide_from_player_crafting = true
         newRecipe.localised_name = { "recipe-name.igrys-enriched-science-pack", recipe.localised_name or { "item-name." .. sciencePack.name}}
         newRecipe.auto_enrich = false
-        table.insert(newRecipe.ingredients, {type = "fluid", name = "igrys-magic-fluid", amount = 2})
+        custom_fluid_indexes = {}
+        for i, ingredient in ipairs(newRecipe.ingredients) do
+            if ingredient.type == "fluid" then
+                if ingredient.fluidbox_index ~= nil then
+                    table.insert(custom_fluid_indexes, ingredient.fluidbox_index)
+                end
+            end
+        end
+        if #custom_fluid_indexes == 0 then
+            table.insert(newRecipe.ingredients, {type = "fluid", name = "igrys-magic-fluid", amount = 2})
+        else
+            myIndex = 1
+            for _, index in ipairs(custom_fluid_indexes) do
+                if myIndex == index then
+                    myIndex = myIndex + 1
+                end
+            end
+            log("Assigning igrys-magic-fluid to fluidbox_index " .. myIndex .. " for recipe " .. recipe.name)
+            table.insert(newRecipe.ingredients, {type = "fluid", name = "igrys-magic-fluid", amount = 2, fluidbox_index = myIndex})
+            if myIndex > 3 then
+                log("Warning: Recipe " .. recipe.name .. " would exceed 3 fluidboxes when enriched, not enriching")
+                return
+            end
+        end
 
         data:extend{newRecipe}
         log("New enriched recipe added for " .. recipe.name)

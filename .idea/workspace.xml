@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Build.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Resources.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Resources.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Items/magic-part-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Items/magic-part-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/EnhancedSciencePacks.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/EnhancedSciencePacks.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.lua" beforeDir="false" afterPath="$PROJECT_DIR$/settings.lua" afterDir="false" />
@@ -107,7 +108,8 @@
     <MESSAGE value="1.5.7" />
     <MESSAGE value="Different tiles" />
     <MESSAGE value="v 1.5.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="v 1.5.10" />
+    <MESSAGE value="v 1.5.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="v 1.5.12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

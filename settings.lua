@@ -26,7 +26,8 @@ data:extend({
         name = "igrys-unique-glass",
         localised_description = {"mod-setting-description.igrys-unique-glass"},
         setting_type = "startup",
-        default_value = false,
-        hidden = true
+        forced_value = false,
+        hidden = true,
+        default_value = false
     }
 })
