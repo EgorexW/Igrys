@@ -66,6 +66,7 @@ data:extend({
         },
         layer = 3,
         absorptions_per_second = tile_pollution.lava,
+        subgroup = "special-tiles"
     }, {
         type = "tile",
         name = "igrys-dirt-2",
@@ -90,6 +91,7 @@ data:extend({
         ),
         absorptions_per_second = tile_pollution.lava,
         map_color={136, 96, 59},
+        subgroup = "special-tiles"
     }, {
         type = "tile",
         name = "igrys-dirt",
@@ -113,5 +115,6 @@ data:extend({
         ),
         absorptions_per_second = tile_pollution.lava,
         map_color={141, 104, 60},
+        subgroup = "special-tiles"
     }
 })

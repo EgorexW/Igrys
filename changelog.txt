@@ -1,6 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.15
+Date: 2025-11-06
+  Bugfixes:
+    - Oil lake tiles are now named
+  Tweaks:
+    - Made diagonal inserter mod optional
+---------------------------------------------------------------------------------------------------
+Version: 1.5.14
+Date: 2025-11-05
+  Bugfixes:
+    - Fixed Magic Part 2 recipe icon
+---------------------------------------------------------------------------------------------------
 Version: 1.5.13
-Date: 2025-11-01
+Date: 2025-11-05
   Bugfixes:
     - Fixed technology icon for glassworking
     - Resolved issue with custom and automatic fluidbox indexing (hopefully)

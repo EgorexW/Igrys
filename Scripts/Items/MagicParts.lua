@@ -16,6 +16,7 @@ data:extend({
         name = "igrys-magic-part-2",
         icon = "__Igrys__/Assets/Items/magic-part-2.png",
         
+        
         subgroup = "igrys-magic",
         order = "b[igrys-magic-part-2]",
         stack_size = 1,

@@ -1,3 +1,6 @@
+if not mods["new-diagonal-inserter"] then
+  return
+end
 if settings.startup["igrys-keep-diagonal-inserter-base"].value == true then
   return
 end

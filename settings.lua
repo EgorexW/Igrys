@@ -16,12 +16,7 @@ data:extend({
         name = "igrys-steal-spidertron",
         setting_type = "startup",
         default_value = true
-    }, {
-        type = "bool-setting",
-        name = "igrys-keep-diagonal-inserter-base",
-        setting_type = "startup",
-        default_value = false
-    }, {
+    },{
         type = "bool-setting",
         name = "igrys-unique-glass",
         localised_description = {"mod-setting-description.igrys-unique-glass"},
@@ -31,3 +26,14 @@ data:extend({
         default_value = false
     }
 })
+
+if mods["new-diagonal-inserter"] then
+    data:extend({
+        {
+            type = "bool-setting",
+            name = "igrys-keep-diagonal-inserter-base",
+            setting_type = "startup",
+            default_value = false
+        }
+    })
+end
