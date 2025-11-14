@@ -1,0 +1,102 @@
+Index: Scripts/Recipes/EnrichingMagicParts.lua
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>data:extend({\n    {\n        type = \"recipe\",\n        name = \"igrys-rich-magic-part-1\",\n        enabled = settings.startup[\"igrys-enable-all\"].value,\n        allow_productivity = true,\n        ingredients = {\n            {type=\"item\", name=\"igrys-magic-part-1\", amount=1},\n            {type=\"item\", name=\"igrys-glass\", amount=10}\n        },\n        results = {\n            {type=\"item\", name=\"igrys-rich-magic-part-1\", amount=1},\n        },\n        energy_required = 5,\n        category = \"advanced-crafting\",\n    }, {\n        type = \"recipe\",\n        name = \"igrys-rich-magic-part-2\",\n        enabled = settings.startup[\"igrys-enable-all\"].value,\n        allow_productivity = true,\n        ingredients = {\n            {type=\"item\", name=\"igrys-magic-part-2\", amount=1},\n            {type=\"item\", name=\"igrys-conductive-brick\", amount=10}\n        },\n        results = {\n            {type=\"item\", name=\"igrys-rich-magic-part-2\", amount=1},\n        },\n        energy_required = 5,\n        category = \"advanced-crafting\",\n    }, {\n        type = \"recipe\",\n        name = \"igrys-rich-magic-part-3\",\n        enabled = settings.startup[\"igrys-enable-all\"].value,\n        allow_productivity = true,\n        ingredients = {\n            {type=\"item\", name=\"igrys-magic-part-3\", amount=1},\n            {type=\"item\", name=\"igrys-cermite\", amount=1}\n        },\n        results = {\n            {type=\"item\", name=\"igrys-rich-magic-part-3\", amount=1},\n        },\n        energy_required = 5,\n        category = \"advanced-crafting\",\n    },\n})
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Scripts/Recipes/EnrichingMagicParts.lua b/Scripts/Recipes/EnrichingMagicParts.lua
+--- a/Scripts/Recipes/EnrichingMagicParts.lua	(revision 3718cd0542bc732030dd68107c805686e577e827)
++++ b/Scripts/Recipes/EnrichingMagicParts.lua	(date 1763116818694)
+@@ -3,13 +3,16 @@
+         type = "recipe",
+         name = "igrys-rich-magic-part-1",
+         enabled = settings.startup["igrys-enable-all"].value,
++        icons = CombinedRichIcon(data.raw["item"]["igrys-magic-part-1"].icon, data.raw["item"]["igrys-magic-part-2"].icon),
+         allow_productivity = true,
+         ingredients = {
+             {type="item", name="igrys-magic-part-1", amount=1},
++            {type="item", name="igrys-magic-part-2", amount=1},
+             {type="item", name="igrys-glass", amount=10}
+         },
+         results = {
+             {type="item", name="igrys-rich-magic-part-1", amount=1},
++            {type="item", name="igrys-rich-magic-part-2", amount=1},
+         },
+         energy_required = 5,
+         category = "advanced-crafting",
+@@ -17,13 +20,16 @@
+         type = "recipe",
+         name = "igrys-rich-magic-part-2",
+         enabled = settings.startup["igrys-enable-all"].value,
++        icons = CombinedRichIcon(data.raw["item"]["igrys-magic-part-2"].icon, data.raw["item"]["igrys-magic-part-3"].icon),
+         allow_productivity = true,
+         ingredients = {
+             {type="item", name="igrys-magic-part-2", amount=1},
++            {type="item", name="igrys-magic-part-3", amount=1},
+             {type="item", name="igrys-conductive-brick", amount=10}
+         },
+         results = {
+             {type="item", name="igrys-rich-magic-part-2", amount=1},
++            {type="item", name="igrys-rich-magic-part-3", amount=1},
+         },
+         energy_required = 5,
+         category = "advanced-crafting",
+@@ -31,13 +37,16 @@
+         type = "recipe",
+         name = "igrys-rich-magic-part-3",
+         enabled = settings.startup["igrys-enable-all"].value,
++        icons = CombinedRichIcon(data.raw["item"]["igrys-magic-part-3"].icon, data.raw["item"]["igrys-magic-part-1"].icon),
+         allow_productivity = true,
+         ingredients = {
+             {type="item", name="igrys-magic-part-3", amount=1},
++            {type="item", name="igrys-magic-part-1", amount=1},
+             {type="item", name="igrys-cermite", amount=1}
+         },
+         results = {
+             {type="item", name="igrys-rich-magic-part-3", amount=1},
++            {type="item", name="igrys-rich-magic-part-1", amount=1},
+         },
+         energy_required = 5,
+         category = "advanced-crafting",
+Index: Scripts/Other/Icons.lua
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>function RichIcons(icon)\n    return{\n        icon,\n        {\n            icon = \"__Igrys__/Assets/Other/rich-icon.png\",\n            icon_size = 16,\n            scale = 1,\n            shift = {8, 8},\n            --tint = {r = 0, g = 0, b = 0, a = 0.5}\n        },\n    }\nend\n\nfunction MadeFromIcons(iconFile, madeFromIconFile)\n    icon = {icon = iconFile}\n    madeFromIcon = {icon = madeFromIconFile}\n    madeFromIcon.scale = 0.4\n    madeFromIcon.shift = {12, 12}\n    return{\n        icon,\n        madeFromIcon\n    }\nend\n\nfunction MadeFromIconsTech(iconFile, madeFromIconFile)\n    icon = {icon = iconFile}\n    madeFromIcon = {icon = madeFromIconFile}\n    madeFromIcon.scale = 1\n    madeFromIcon.shift = {40, 40}\n    return{\n        icon,\n        madeFromIcon\n    }\nend
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Scripts/Other/Icons.lua b/Scripts/Other/Icons.lua
+--- a/Scripts/Other/Icons.lua	(revision 3718cd0542bc732030dd68107c805686e577e827)
++++ b/Scripts/Other/Icons.lua	(date 1763117250365)
+@@ -11,6 +11,30 @@
+     }
+ end
+ 
++function CombinedRichIcon(icon1raw, icon2raw)
++    icon1 = {
++        icon = icon1raw,
++        scale = 0.5,
++        shift = {-4, 4}
++    }
++    icon2 = {
++        icon = icon2raw,
++        scale = 0.5,
++        shift = {4, -4}
++    }
++    return{
++            icon1,
++            icon2,
++        {
++            icon = "__Igrys__/Assets/Other/rich-icon.png",
++            icon_size = 16,
++            scale = 1,
++            shift = {8, 8},
++            --tint = {r = 0, g = 0, b = 0, a = 0.5}
++        },
++    }
++end
++
+ function MadeFromIcons(iconFile, madeFromIconFile)
+     icon = {icon = iconFile}
+     madeFromIcon = {icon = madeFromIconFile}
