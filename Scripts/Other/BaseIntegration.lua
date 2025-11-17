@@ -6,12 +6,13 @@ table.insert(data.raw["lab"]["lab"].inputs, "igrys-mineral-science-pack")
 table.insert(data.raw["lab"]["biolab"].inputs, "igrys-mineral-science-pack")
 
 -- Tech
-table.insert(data.raw["technology"]["promethium-science-pack"].prerequisites, "igrys-mineral-science")
-if data.raw["technology"]["promethium-science-pack"].unit ~= nil then
-    table.insert(data.raw["technology"]["promethium-science-pack"].unit.ingredients, {"igrys-mineral-science-pack", 1})
+if settings.startup["igrys-add-mineral-science-to-promethium"].value then
+    table.insert(data.raw["technology"]["promethium-science-pack"].prerequisites, "igrys-mineral-science")
+    if data.raw["technology"]["promethium-science-pack"].unit ~= nil then
+        table.insert(data.raw["technology"]["promethium-science-pack"].unit.ingredients, {"igrys-mineral-science-pack", 1})
+    end
+    table.insert(data.raw["technology"]["research-productivity"].unit.ingredients, {"igrys-mineral-science-pack", 1})
 end
-table.insert(data.raw["technology"]["research-productivity"].unit.ingredients, {"igrys-mineral-science-pack", 1})
-
 -- Productivity Research
 table.insert(data.raw["technology"]["plastic-bar-productivity"].effects, {
     type = "change-recipe-productivity",

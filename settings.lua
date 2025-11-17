@@ -16,7 +16,12 @@ data:extend({
         name = "igrys-steal-spidertron",
         setting_type = "startup",
         default_value = true
-    },{
+    }, {
+        type = "bool-setting",
+        name = "igrys-add-mineral-science-to-promethium",
+        setting_type = "startup",
+        default_value = true
+    }, {
         type = "bool-setting",
         name = "igrys-unique-glass",
         localised_description = {"mod-setting-description.igrys-unique-glass"},
