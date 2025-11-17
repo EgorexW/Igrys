@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2025,_16_07_[Changes]/Build.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2025,_16_07_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2025__16_07__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Items/MagicParts.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Items/MagicParts.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Other/Icons.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/Icons.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/EnrichingMagicParts.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/EnrichingMagicParts.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,16 +69,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "new-features",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="" />
@@ -123,7 +118,8 @@
     <MESSAGE value="v 1.5.12" />
     <MESSAGE value="1.5.13" />
     <MESSAGE value="QoL changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="QoL changes" />
+    <MESSAGE value="Setting for adding science pack to promethium" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting for adding science pack to promethium" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
