@@ -1,0 +1,138 @@
+Index: Scripts/Control/CopperPlateMachine.lua
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>function OnEntityBuild (event)\n    event.entity.active = not storage.day\nend\n\nscript.on_event(defines.events.on_built_entity, OnEntityBuild,\n        {{filter = \"name\", name = \"igrys-copper-plate-machine\"}})\nscript.on_event(defines.events.on_robot_built_entity, OnEntityBuild,\n        {{filter = \"name\", name = \"igrys-copper-plate-machine\"}})\n\nfunction TurnCopperPlateMachines(day)\n    local igrysSurface = game.surfaces[\"igrys\"]\n    for _, machine in ipairs(igrysSurface.find_entities_filtered{name = \"igrys-copper-plate-machine\"}) do\n        machine.active = not day\n        --game.print(\"Turning \" .. tostring(machine.active) .. \" machine.active\")\n    end\nend
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Scripts/Control/CopperPlateMachine.lua b/Scripts/Control/CopperPlateMachine.lua
+--- a/Scripts/Control/CopperPlateMachine.lua	(revision c9b2535527e392e79a3be373473c6f4e2e4a717b)
++++ b/Scripts/Control/CopperPlateMachine.lua	(date 1763368668408)
+@@ -13,4 +13,44 @@
+         machine.active = not day
+         --game.print("Turning " .. tostring(machine.active) .. " machine.active")
+     end
+-end
+\ No newline at end of file
++end
++
++script.on_nth_tick(60 * 60, function()
++    local igrysSurface = game.surfaces["igrys"]
++    if not igrysSurface then
++        return
++    end
++    if storage.day then
++        return
++    end
++
++    local machines = igrysSurface.find_entities_filtered{name = "igrys-copper-plate-machine"}
++    local nr = # (machines)
++    
++    if math.random() > ((1) / (-nr - 1)) + 1 then
++        game.print("CopperPlateMachine: No machine triggered this minute.")
++        return
++    end
++        
++    local randomMachine = machines[math.random(nr)]
++    
++    randomMachine.power_usage = randomMachine.power_usage * 1000 
++    game.print("CopperPlateMachine: Boosted machine " .. randomMachine.unit_number)
++    
++    if not storage.toShutdown then
++        storage.toShutdown = {}
++    end
++    
++    storage.toShutdown = randomMachine
++end)
++
++script.on_nth_tick(60 * 2, function()
++    local igrysSurface = game.surfaces["igrys"]
++    if not igrysSurface then return end
++    if storage.toShutdown == nil then
++        return
++    end
++    storage.toShutdown.power_usage = storage.toShutdown.power_usage / 1000
++    game.print("CopperPlateMachine: Restored machine " .. storage.toShutdown.unit_number)
++    storage.toShutdown = nil
++end)
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"aa0a8a43-d7c1-40a5-bdf7-403610941d3e\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2025,_16_07_[Changes]/Build.zip\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2025,_16_07_[Changes]/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2025__16_07__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Scripts/Items/MagicParts.lua\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Scripts/Items/MagicParts.lua\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Scripts/Other/Icons.lua\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Scripts/Other/Icons.lua\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Scripts/Recipes/EnrichingMagicParts.lua\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Scripts/Recipes/EnrichingMagicParts.lua\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/changelog.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/changelog.txt\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"NewLua\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {}\n}</component>\n  <component name=\"GitHubPullRequestState\">{\n  &quot;prStates&quot;: [\n    {\n      &quot;id&quot;: {\n        &quot;id&quot;: &quot;PR_kwDOOLPaUc6kezAU&quot;,\n        &quot;number&quot;: 11\n      },\n      &quot;lastSeen&quot;: 1756140770908\n    }\n  ]\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/EgorexW/Igrys.git&quot;,\n    &quot;accountId&quot;: &quot;3f606870-46b0-4f27-9e6f-2292962b93cb&quot;\n  }\n}</component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"mock:///Users/egorexw/Library/Application Support/factorio/mods/Igrys/info.json\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"mock:///Users/egorexw/Library/Application Support/factorio/mods/Igrys/info.json\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"mock:///Users/egorexw/Library/Application Support/factorio/mods/Igrys/info.json\" root0=\"FORCE_HIGHLIGHTING\" />\n  </component>\n  <component name=\"MetaFilesCheckinStateConfiguration\" checkMetaFiles=\"true\" />\n  <component name=\"ProjectColorInfo\">{\n  &quot;customColor&quot;: &quot;&quot;,\n  &quot;associatedIndex&quot;: 1\n}</component>\n  <component name=\"ProjectId\" id=\"2yfgnQLLPWlCmPbXQST28quaEML\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"autoscrollToSource\" value=\"true\" />\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"git-widget-placeholder\": \"new-features\",\n    \"settings.editor.selected.configurable\": \"preferences.keymap\"\n  }\n}]]></component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"aa0a8a43-d7c1-40a5-bdf7-403610941d3e\" name=\"Changes\" comment=\"\" />\n      <created>1750231207464</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1750231207464</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"UnityCheckinConfiguration\" checkUnsavedScenes=\"true\" />\n  <component name=\"UnityProjectConfiguration\" hasMinimizedUI=\"false\" />\n  <component name=\"UnknownFeatures\">\n    <option featureType=\"com.intellij.fileTypeFactory\" implementationName=\"*.sh\" />\n    <option featureType=\"com.intellij.fileTypeFactory\" implementationName=\"*.cfg\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"CLEAR_INITIAL_COMMIT_MESSAGE\" value=\"true\" />\n    <MESSAGE value=\"Bump version to 1.5.1 and add Spanish translation\" />\n    <MESSAGE value=\"1.5.2\" />\n    <MESSAGE value=\"1.5.5\" />\n    <MESSAGE value=\"1.5.6\" />\n    <MESSAGE value=\"1.5.7\" />\n    <MESSAGE value=\"Different tiles\" />\n    <MESSAGE value=\"v 1.5.10\" />\n    <MESSAGE value=\"v 1.5.12\" />\n    <MESSAGE value=\"1.5.13\" />\n    <MESSAGE value=\"QoL changes\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"QoL changes\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <breakpoint enabled=\"true\" type=\"DotNet_Exception_Breakpoints\">\n          <properties exception=\"System.OperationCanceledException\" breakIfHandledByOtherCode=\"false\" displayValue=\"System.OperationCanceledException\" />\n          <option name=\"timeStamp\" value=\"1\" />\n        </breakpoint>\n        <breakpoint enabled=\"true\" type=\"DotNet_Exception_Breakpoints\">\n          <properties exception=\"System.Threading.Tasks.TaskCanceledException\" breakIfHandledByOtherCode=\"false\" displayValue=\"System.Threading.Tasks.TaskCanceledException\" />\n          <option name=\"timeStamp\" value=\"2\" />\n        </breakpoint>\n        <breakpoint enabled=\"true\" type=\"DotNet_Exception_Breakpoints\">\n          <properties exception=\"System.Threading.ThreadAbortException\" breakIfHandledByOtherCode=\"false\" displayValue=\"System.Threading.ThreadAbortException\" />\n          <option name=\"timeStamp\" value=\"3\" />\n        </breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c9b2535527e392e79a3be373473c6f4e2e4a717b)
++++ b/.idea/workspace.xml	(date 1763368679291)
+@@ -5,14 +5,16 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2025,_16_07_[Changes]/Build.zip" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2025,_16_07_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2025__16_07__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Items/magic-part-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Items/magic-part-2.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Build.zip" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Scripts/Entity/DiagonalInserter.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Entity/DiagonalInserter.lua" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Scripts/Items/MagicParts.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Items/MagicParts.lua" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Scripts/Other/Icons.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/Icons.lua" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/EnrichingMagicParts.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/EnrichingMagicParts.lua" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Tiles.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Tiles.lua" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/locale/en/whatever.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/locale/en/whatever.cfg" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/settings.lua" beforeDir="false" afterPath="$PROJECT_DIR$/settings.lua" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -27,11 +29,6 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
+-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-      <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
+-      </map>
+-    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+@@ -74,16 +71,16 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "new-features",
+-    "settings.editor.selected.configurable": "preferences.keymap"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+       <changelist id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="" />
+@@ -122,8 +119,7 @@
+     <MESSAGE value="v 1.5.10" />
+     <MESSAGE value="v 1.5.12" />
+     <MESSAGE value="1.5.13" />
+-    <MESSAGE value="QoL changes" />
+-    <option name="LAST_COMMIT_MESSAGE" value="QoL changes" />
++    <option name="LAST_COMMIT_MESSAGE" value="1.5.13" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
