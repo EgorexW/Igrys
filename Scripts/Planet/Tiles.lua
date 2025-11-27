@@ -77,7 +77,7 @@ data:extend({
             probability_expression = "noise_igrys_dirt > 0.75",
         },
         collision_mask = tile_collision_masks.ground(),
-        layer = 3,
+        layer = 11,
         --sprite_usage_surface = "vulcanus",
         variants = tile_variations_template(
                 "__base__/graphics/terrain/dirt-2.png", "__base__/graphics/terrain/masks/transition-1.png",
@@ -102,7 +102,7 @@ data:extend({
             probability_expression = "noise_igrys_dirt > 0 & noise_igrys_dirt < 0.75",
         },
         collision_mask = tile_collision_masks.ground(),
-        layer = 3,
+        layer = 10,
         variants = tile_variations_template(
                 "__base__/graphics/terrain/dirt-1.png", "__base__/graphics/terrain/masks/transition-1.png",
                 {
