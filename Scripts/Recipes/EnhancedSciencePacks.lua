@@ -8,7 +8,7 @@ local function CreateRecipe(recipe, sciencePack)
         newRecipe.enabled = settings.startup["igrys-enable-all"].value or newRecipe.enabled
         newRecipe.subgroup = "igrys-enriched-science-pack"
         newRecipe.auto_recycle = false
-        newRecipe.hidden_in_factoriopedia = true
+        newRecipe.hidden_in_factoriopedia = false
         newRecipe.hide_from_player_crafting = true
         newRecipe.localised_name = { "recipe-name.igrys-enriched-science-pack", recipe.localised_name or { "item-name." .. sciencePack.name}}
         newRecipe.auto_enrich = false
