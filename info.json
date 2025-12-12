@@ -8,7 +8,8 @@
     "base >= 2.0",
     "space-age >= 1.0",
     "PlanetsLib >= 1.2",
-    "? new-diagonal-inserter >= 1.0.5"],
+    "? new-diagonal-inserter >= 1.0.5",
+    "? canal-excavator >= 1.11"],
   "description": "Igrys – A new planet with magic-powered science, advanced glassworking, and alternative production chains",
   "space_travel_required": true
 }
