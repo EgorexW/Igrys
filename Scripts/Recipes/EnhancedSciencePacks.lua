@@ -25,8 +25,8 @@ local function CreateRecipe(recipe, sciencePack)
         else
             myIndex = 1
             for _, index in ipairs(custom_fluid_indexes) do
-                if myIndex == index then
-                    myIndex = myIndex + 1
+                if myIndex <= index then
+                    myIndex = index + 1
                 end
             end
             log("Assigning igrys-magic-fluid to fluidbox_index " .. myIndex .. " for recipe " .. recipe.name)
