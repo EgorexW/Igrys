@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data-final-fixes.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu-simulations/menu-simulations.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Igrys.dir/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Igrys.dir/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Build.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Control/EnrichedRecipeEnable.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Control/EnrichedRecipeEnable.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/EnhancedSciencePacks.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/EnhancedSciencePacks.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-final-fixes.lua" beforeDir="false" afterPath="$PROJECT_DIR$/data-final-fixes.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu-simulations/menu-simulations.lua" beforeDir="false" afterPath="$PROJECT_DIR$/menu-simulations/menu-simulations.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +79,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "menu-simulations",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="TaskManager">
@@ -124,8 +124,7 @@
     <MESSAGE value="QoL changes" />
     <MESSAGE value="Setting for adding science pack to promethium" />
     <MESSAGE value="1.5.15" />
-    <MESSAGE value="1.5.16" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5.16" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.5.15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

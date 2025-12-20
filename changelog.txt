@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.17
+Date: 2025-12-20
+  Features:
+    - Menu simulations!
+  Bugfixes:
+    - custom fluid indexes for enriched science pack recipes fixed
+  Tweaks:
+    - Compatibility with canal excavator mod
+---------------------------------------------------------------------------------------------------
 Version: 1.5.16
 Date: 2025-11-27
   Bugfixes:
@@ -210,16 +219,16 @@ Date: 2025-04-2
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 2025-04-2
-  Compatibility:
+  Tweaks:
     - Added setting to integrate with modded science packs
       By default the mod will only enrich vanilla and Igrys's science packs
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2025-04-1
-  Compatibility:
+  Tweaks:
     - Fixed compatibility with Janus and Alien Biomes
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2025-03-31
-  Major Features:
+  Features:
     - Initial release of the mod.
