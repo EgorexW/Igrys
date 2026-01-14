@@ -34,4 +34,4 @@ require("Scripts.Other.Groups")
 require("Scripts.Other.SpidertronSteal")
 require("Scripts.Other.BaseIntegration")
 
-require("compatibility.data")
+require("Scripts.Compatibility.data")

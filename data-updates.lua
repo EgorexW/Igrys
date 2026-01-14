@@ -1,2 +1,1 @@
-require("Scripts.Recipes.EnhancedSciencePacks")
-require("Scripts.Other.ModsCompatibility")
+require("Scripts.Compatibility.data-updates")

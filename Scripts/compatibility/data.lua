@@ -1,0 +1,1 @@
+require("Scripts.Compatibility.canal-excavator")

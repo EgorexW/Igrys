@@ -1,3 +1,7 @@
+if settings.startup["igrys-enable-menu-simulations"].value == false then
+    return
+end
+
 menu_simulations = {}
 
 menu_simulations["igrys-sim-1"] = -- Simulation name
@@ -71,6 +75,7 @@ menu_simulations["igrys-sim-4"] = -- Simulation name
       game.simulation.camera_zoom = 1 -- Zoom of camera
       game.tick_paused = false
       game.surfaces["igrys"].daytime = math.random()
+      game.players[1].game_view_settings.show_controller_gui = false
     ]],
 }
 

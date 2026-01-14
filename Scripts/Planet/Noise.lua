@@ -1,3 +1,5 @@
+local oil_offset = settings.startup["igrys-oil-band-offset"].value
+
 data:extend({
     {
         type = "noise-expression",
@@ -33,19 +35,25 @@ data:extend({
     },{
         type = "noise-expression",
         name = "noise_igrys_light_oil",
-        expression = "noise_igrys_light_oil_raw - 0.5 - igrys_neutral_start"
+        expression = "noise_igrys_light_oil_raw + noise_igrys_light_oil_ribon"
     }, {
         type = "noise-expression",
         name = "noise_igrys_light_oil_raw",
         expression = [[multioctave_noise{
-                x = x/200,
+                x = x,
                 y = y,
                 persistence = 0.5,
                 seed0 = map_seed,
                 seed1 = 5115,
                 octaves = 6,
-                input_scale = 1/16,
+                input_scale = 1/8,
                 output_scale = 1
             }]]
+    }, {
+        type = "noise-expression",
+        name = "noise_igrys_light_oil_ribon",
+        expression = string.format([[
+            (abs(y) - %d) * 0.5
+        ]], oil_offset)
     }
 })

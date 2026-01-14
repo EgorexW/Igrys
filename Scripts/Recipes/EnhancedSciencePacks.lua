@@ -8,7 +8,7 @@ local function CreateRecipe(recipe, sciencePack)
         newRecipe.enabled = settings.startup["igrys-enable-all"].value or newRecipe.enabled
         newRecipe.subgroup = "igrys-enriched-science-pack"
         newRecipe.auto_recycle = false
-        newRecipe.hidden_in_factoriopedia = false
+        newRecipe.hidden_in_factoriopedia = true
         newRecipe.hide_from_player_crafting = true
         newRecipe.localised_name = { "recipe-name.igrys-enriched-science-pack", recipe.localised_name or { "item-name." .. sciencePack.name}}
         newRecipe.auto_enrich = false
@@ -80,11 +80,23 @@ else
     for _, sciencePack in ipairs(sciencePacks) do
         log("Science pack name: " .. sciencePack.name)
         for _, recipe in pairs(data.raw["recipe"]) do
-            if recipe.auto_enrich == false or recipe.category == "recycling" then
+            if settings.startup["igrys-exclude-recipies-with-same-pack-as-ingredient"].value == true then
+                if recipe.ingredients then
+                    for _, ingredient in ipairs(recipe.ingredients) do
+                        if ingredient.name == sciencePack.name then
+                            log("Found recipe " .. recipe.name .. " that uses " .. sciencePack.name .. " as an ingredient")
+                            recipe.auto_enrich = false
+                        end
+                    end
+                end
+            end
+            if recipe.category == "recycling" then
+                recipe.auto_enrich = false
+            end
+            if recipe.auto_enrich == false then
             else
                 if recipe.results then
                     for _, result in ipairs(recipe.results) do
-                        --log("Result name: " .. result.name)
                         if result.name == sciencePack.name then
                             log("Found recipe " .. recipe.name .. " that produces " .. sciencePack.name)
                             CreateRecipe(recipe, sciencePack)

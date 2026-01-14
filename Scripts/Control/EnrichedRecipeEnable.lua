@@ -8,6 +8,7 @@ function ReloadEnrichedRecipes()
                     --game.print("Checking base recipe " .. string.sub(recipeName, 6 + 1, #recipeName - 9))
                     if baseRecipe then
                         recipe.enabled = baseRecipe.enabled
+                        recipe.productivity_bonus = baseRecipe.productivity_bonus
                         --game.print("Setting " .. recipeName .. " to " .. tostring(recipe.enabled))
                     end
                 end

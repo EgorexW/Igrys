@@ -1,4 +1,25 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.20
+Date: 2026
+  Tweaks:
+    - Don't enrich recipes which take that science pack as an ingredient (as an optional setting)
+    - Enriched recipes copy the bases recipes productivity bonus
+  Features:
+    - Endless lake from top and botton creating a semi ribon planet (on a new world gen)
+---------------------------------------------------------------------------------------------------
+Version: 1.5.19
+Date: 2025-12-29
+  Bugfixes:
+    - Crash fixed!
+---------------------------------------------------------------------------------------------------
+Version: 1.5.18
+Date: 2025-12-29
+  Tweaks:
+    - Option to disable menu simulations added
+    - Moved science pack enrichment to data-final-fixes to hopefully improve compatibility with other mods
+  Bugfixes:
+    - Removed the tool bar from one of the menu simulations
+---------------------------------------------------------------------------------------------------
 Version: 1.5.17
 Date: 2025-12-20
   Features:

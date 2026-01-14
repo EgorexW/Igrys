@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Igrys.dir/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Igrys.dir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/compatibility/data-updates.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/compatibility/secretas.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Build.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Control/EnrichedRecipeEnable.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Control/EnrichedRecipeEnable.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Other/ModsCompatibility.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/compatibility/Riteg-Metal-and-Stars.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Noise.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Noise.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/EnhancedSciencePacks.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/EnhancedSciencePacks.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compatibility/canal-excavator.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/compatibility/canal-excavator.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compatibility/data.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/compatibility/data.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-final-fixes.lua" beforeDir="false" afterPath="$PROJECT_DIR$/data-final-fixes.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-updates.lua" beforeDir="false" afterPath="$PROJECT_DIR$/data-updates.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.lua" beforeDir="false" afterPath="$PROJECT_DIR$/data.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/en/whatever.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/locale/en/whatever.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu-simulations/menu-simulations.lua" beforeDir="false" afterPath="$PROJECT_DIR$/menu-simulations/menu-simulations.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.lua" beforeDir="false" afterPath="$PROJECT_DIR$/settings.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,17 +84,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="" />
@@ -124,7 +136,8 @@
     <MESSAGE value="QoL changes" />
     <MESSAGE value="Setting for adding science pack to promethium" />
     <MESSAGE value="1.5.15" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5.15" />
+    <MESSAGE value="1.5.17" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.5.17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
