@@ -1,6 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.21
+Date: 2026-01-14
+  Bugfixes:
+    - Crash fixed?
+---------------------------------------------------------------------------------------------------
 Version: 1.5.20
-Date: 2026
+Date: 2026-01-14
   Tweaks:
     - Don't enrich recipes which take that science pack as an ingredient (as an optional setting)
     - Enriched recipes copy the bases recipes productivity bonus
