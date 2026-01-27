@@ -20,3 +20,6 @@ zip -r "$ZIP_FILE" build
 rm -rf build
 
 echo "Build packaged into $ZIP_FILE"
+
+echo "Launching Factorio..."
+open "/Users/egorexw/Applications/Factorio.app"

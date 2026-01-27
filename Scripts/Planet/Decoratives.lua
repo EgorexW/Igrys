@@ -37,7 +37,8 @@ data:extend {
                 multiplier = 0.1,
                 penalty = 2,
                 control = "control:rocks:size",
-            }
+            },
+            order = "d"
         },
         picture = {
             filename = "__Igrys__/Assets/Entity/IgrysRuin.png",
@@ -82,7 +83,8 @@ data:extend {
                 multiplier = 0.2,
                 penalty = 1,
                 control = "control:rocks:size",
-            }
+            },
+            order = "d"
         },
         pictures = {
             {

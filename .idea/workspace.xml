@@ -7,11 +7,10 @@
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Build.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/compatibility/Riteg-Metal-and-Stars.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Compatibility/Riteg-Metal-and-Stars.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/compatibility/canal-excavator.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Compatibility/canal-excavator.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/compatibility/data-updates.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Compatibility/data-updates.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/compatibility/data.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Compatibility/data.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/compatibility/secretas.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Compatibility/secretas.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Decoratives.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Decoratives.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Noise.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Noise.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Resources.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Resources.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-zip.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build-zip.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
     </list>
@@ -19,6 +18,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/egorexw/Library/Application Support/factorio/mods/Igrys" value="2yfgnQLLPWlCmPbXQST28quaEML" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="fork/EBTheHero/menu-simulations-fix" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,7 +133,8 @@
     <MESSAGE value="1.5.15" />
     <MESSAGE value="1.5.17" />
     <MESSAGE value="1.5.20" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5.20" />
+    <MESSAGE value="3 updates in 2 hours" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 updates in 2 hours" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

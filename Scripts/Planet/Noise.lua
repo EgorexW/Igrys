@@ -22,7 +22,7 @@ data:extend({
     {
         type = "noise-expression",
         name = "igrys_neutral",
-        expression = "(igrys_neutral_start + igrys_neutral_raw + 0.75) * (noise_igrys_light_oil < 0)"
+        expression = "(igrys_neutral_start + igrys_neutral_raw + 1) * (noise_igrys_light_oil < 0)"
     },
     {
         type = "noise-expression",
