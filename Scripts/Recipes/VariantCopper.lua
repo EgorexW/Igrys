@@ -11,7 +11,7 @@ data:extend{
         },
         results = {{type="item", name="electronic-circuit", amount=3}},
         icons = MadeFromIcons(data.raw["item"]["electronic-circuit"].icon, data.raw["item"]["igrys-glass"].icon),
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         allow_productivity = true,
         energy_required = 3,
         category = "electronics",
@@ -20,7 +20,7 @@ data:extend{
     }, {
         type = "recipe",
         name = "igrys-copper-rail",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         ingredients =
         {
             {type = "item", name = "stone", amount = 1},
@@ -36,7 +36,7 @@ data:extend{
     }, {
         type = "recipe",
         name = "igrys-sulfuric-acid",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         category = "chemistry-or-cryogenics",
         subgroup = "fluid-recipes",
         energy_required = 1,
@@ -59,7 +59,7 @@ data:extend{
         name = "igrys-plastic-bar",
         category = "chemistry-or-cryogenics",
         energy_required = 1,
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         auto_recycle = false,
         ingredients =
         {

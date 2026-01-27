@@ -192,6 +192,9 @@ data:extend({
             }, {
                 type = "unlock-recipe",
                 recipe = "igrys-raw-cermite"
+            }, {
+                type = "unlock-recipe",
+                recipe = "igrys-raw-cermite-concrete-subproduct"
             }
         },
         prerequisites = {

@@ -19,6 +19,7 @@ require("Scripts.Items.MagicParts")
 require("Scripts.Items.StrongBarrel")
 require("Scripts.Items.Cermet")
 
+require("Scripts.Recipes.Concrete")
 require("Scripts.Recipes.VariantSciencePacks")
 require("Scripts.Recipes.StuffOutOfThinAir")
 require("Scripts.Recipes.VariantCopper")
