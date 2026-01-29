@@ -1,5 +1,10 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.5.26
+Version: 1.5.28
+Date: 2026-01-29
+  Tweaks:
+    - Science enhancer machine gains module slots with quality
+---------------------------------------------------------------------------------------------------
+Version: 1.5.27
 Date: 2026-01-27
   Bugfixes:
     - Changed the group and order of raw cermite and concrete

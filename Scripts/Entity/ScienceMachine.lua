@@ -8,6 +8,7 @@ data:extend{
          minable = { mining_time = 0.1, result = "igrys-science-enhancer-machine" },
          max_health = 500,
          heating_energy = "100kW",
+         quality_affects_module_slots = true,
          effect_receiver = { base_effect = { productivity = 1.5 } },
          collision_box = { { -2.3, -2.3 }, { 2.3, 2.3 } },
          selection_box = { { -2.5, -2.5 }, { 2.5, 2.5 } },
