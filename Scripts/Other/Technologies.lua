@@ -450,7 +450,18 @@ data:extend({
     }, {
         type = "technology",
         name = "igrys-magic-reach",
-        icon = "__Igrys__/Assets/Technologies/magic-teseract.png",
+        icons = {
+            {
+                icon = "__Igrys__/Assets/Technologies/mineral-science-pack.png",
+                icon_size = 1024,
+            },
+            {
+                icon = "__Igrys__/Assets/Other/rich-icon.png",
+                scale = 2,
+                icon_size = 16,
+                shift = { 40, 40 }
+            }
+        },
         effects = {
             { type = "character-build-distance", modifier = 10 },
             { type = "character-reach-distance", modifier = 10 },
@@ -468,7 +479,18 @@ data:extend({
     }, {
         type = "technology",
         name = "igrys-magic-speed",
-        icon = "__Igrys__/Assets/Technologies/magic-teseract.png",
+        icons = {
+            {
+                icon = "__Igrys__/Assets/Technologies/mineral-science-pack.png",
+                icon_size = 1024,
+            },
+            {
+                icon = "__Igrys__/Assets/Other/rich-icon.png",
+                scale = 2,
+                icon_size = 16,
+                shift = { 40, 40 }
+            }
+        },
         effects = {
             { type = "character-running-speed", modifier = 1 },
         },

@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/Control/ExlusiveTechnologies.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Control/EffectsDuringDay.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Control/ExlusiveTechnologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Control/ExlusiveTechnologies.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control.lua" beforeDir="false" afterPath="$PROJECT_DIR$/control.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locale/en/whatever.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/locale/en/whatever.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +136,8 @@
     <MESSAGE value="1.5.25" />
     <MESSAGE value="1.5.27" />
     <MESSAGE value="New Surface Condition, and can't build accumulators on igrys" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Surface Condition, and can't build accumulators on igrys" />
+    <MESSAGE value="Magic Speed and Reach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Magic Speed and Reach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,13 +2,13 @@ function OnResearch(details)
     if details.research.name == "igrys-magic-speed" then
         if details.research.force.technologies["igrys-magic-reach"].researched then
             details.research.force.technologies["igrys-magic-reach"].researched = false
-            game.print({"igrys-messages.tech-conflict-warning", {"technology-name.igrys-magic-reach"}})
+            game.print({"igrys-messages.tech-conflict-warning", "igrys-magic-reach"})
         end
     end
     if details.research.name == "igrys-magic-reach" then
         if details.research.force.technologies["igrys-magic-speed"].researched then
             details.research.force.technologies["igrys-magic-speed"].researched = false
-            game.print({"igrys-messages.tech-conflict-warning", {"technology-name.igrys-magic-speed"}})
+            game.print({"igrys-messages.tech-conflict-warning", "igrys-magic-speed"})
         end
     end
 end
