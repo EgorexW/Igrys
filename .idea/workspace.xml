@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Scripts/Control/ExlusiveTechnologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Control/ExlusiveTechnologies.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locale/en/whatever.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/locale/en/whatever.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +20,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="141" />
+    <option name="cachedIndexableFilesCount" value="142" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -42,23 +42,40 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GitHubPullRequestState">{
-  &quot;prStates&quot;: [
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
     {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOOLPaUc6kezAU&quot;,
-        &quot;number&quot;: 11
+      "id": {
+        "id": "PR_kwDOOLPaUc6kezAU",
+        "number": 11
       },
-      &quot;lastSeen&quot;: 1769538022839
+      "lastSeen": 1769538022839
+    },
+    {
+      "id": {
+        "id": "PR_kwDOOLPaUc7CNbi-",
+        "number": 21
+      },
+      "lastSeen": 1770491624081
     }
   ]
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/EgorexW/Igrys.git&quot;,
-    &quot;accountId&quot;: &quot;3f606870-46b0-4f27-9e6f-2292962b93cb&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EgorexW/Igrys.git",
+    "accountId": "3f606870-46b0-4f27-9e6f-2292962b93cb"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "EgorexW",
+    "repository": "Igrys"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/egorexw/Library/Application Support/factorio/mods/Igrys/info.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/egorexw/Library/Application Support/factorio/mods/Igrys/info.json" root0="FORCE_HIGHLIGHTING" />
@@ -85,7 +102,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "new-features-from-1.5.28",
+    "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "ml.llm.LLMConfigurable"
   }
 }]]></component>

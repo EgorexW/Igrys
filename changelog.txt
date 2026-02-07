@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.29
+Date: 2026-02-07
+  Features:
+    - Added 2 mutually exclusive technologies, which infuse the player with magic
+  Tweaks:
+    - Accumulator is no longer buildable on Igrys, sorry;)
+    - Created Igrian surface condition
+---------------------------------------------------------------------------------------------------
 Version: 1.5.28
 Date: 2026-01-29
   Tweaks:

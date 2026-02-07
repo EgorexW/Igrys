@@ -1,0 +1,73 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"aa0a8a43-d7c1-40a5-bdf7-403610941d3e\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Build.zip\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Build.zip\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Scripts/Entity/ScienceMachine.lua\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Scripts/Entity/ScienceMachine.lua\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/changelog.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/changelog.txt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/info.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/info.json\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"CopilotPersistence\">\n    <persistenceIdMap>\n      <entry key=\"_/Users/egorexw/Library/Application Support/factorio/mods/Igrys\" value=\"2yfgnQLLPWlCmPbXQST28quaEML\" />\n    </persistenceIdMap>\n  </component>\n  <component name=\"EmbeddingIndexingInfo\">\n    <option name=\"cachedIndexableFilesCount\" value=\"141\" />\n    <option name=\"fileBasedEmbeddingIndicesEnabled\" value=\"true\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"NewLua\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"fork/EBTheHero/menu-simulations-fix\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {}\n}</component>\n  <component name=\"GitHubPullRequestState\">{\n  &quot;prStates&quot;: [\n    {\n      &quot;id&quot;: {\n        &quot;id&quot;: &quot;PR_kwDOOLPaUc6kezAU&quot;,\n        &quot;number&quot;: 11\n      },\n      &quot;lastSeen&quot;: 1769538022839\n    }\n  ]\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/EgorexW/Igrys.git&quot;,\n    &quot;accountId&quot;: &quot;3f606870-46b0-4f27-9e6f-2292962b93cb&quot;\n  }\n}</component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"mock:///Users/egorexw/Library/Application Support/factorio/mods/Igrys/info.json\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"mock:///Users/egorexw/Library/Application Support/factorio/mods/Igrys/info.json\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"mock:///Users/egorexw/Library/Application Support/factorio/mods/Igrys/info.json\" root0=\"FORCE_HIGHLIGHTING\" />\n  </component>\n  <component name=\"MetaFilesCheckinStateConfiguration\" checkMetaFiles=\"true\" />\n  <component name=\"ProjectColorInfo\">{\n  &quot;customColor&quot;: &quot;&quot;,\n  &quot;associatedIndex&quot;: 1\n}</component>\n  <component name=\"ProjectId\" id=\"2yfgnQLLPWlCmPbXQST28quaEML\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"autoscrollToSource\" value=\"true\" />\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;\n  }\n}</component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"aa0a8a43-d7c1-40a5-bdf7-403610941d3e\" name=\"Changes\" comment=\"\" />\n      <created>1750231207464</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1750231207464</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"UnityCheckinConfiguration\" checkUnsavedScenes=\"true\" />\n  <component name=\"UnityProjectConfiguration\" hasMinimizedUI=\"false\" />\n  <component name=\"UnknownFeatures\">\n    <option featureType=\"com.intellij.fileTypeFactory\" implementationName=\"*.sh\" />\n    <option featureType=\"com.intellij.fileTypeFactory\" implementationName=\"*.cfg\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"CLEAR_INITIAL_COMMIT_MESSAGE\" value=\"true\" />\n    <MESSAGE value=\"Bump version to 1.5.1 and add Spanish translation\" />\n    <MESSAGE value=\"1.5.2\" />\n    <MESSAGE value=\"1.5.5\" />\n    <MESSAGE value=\"1.5.6\" />\n    <MESSAGE value=\"1.5.7\" />\n    <MESSAGE value=\"Different tiles\" />\n    <MESSAGE value=\"v 1.5.10\" />\n    <MESSAGE value=\"v 1.5.12\" />\n    <MESSAGE value=\"1.5.13\" />\n    <MESSAGE value=\"QoL changes\" />\n    <MESSAGE value=\"Setting for adding science pack to promethium\" />\n    <MESSAGE value=\"1.5.15\" />\n    <MESSAGE value=\"1.5.17\" />\n    <MESSAGE value=\"1.5.20\" />\n    <MESSAGE value=\"3 updates in 2 hours\" />\n    <MESSAGE value=\"1.5.25\" />\n    <MESSAGE value=\"1.5.27\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"1.5.27\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <breakpoint enabled=\"true\" type=\"DotNet_Exception_Breakpoints\">\n          <properties exception=\"System.OperationCanceledException\" breakIfHandledByOtherCode=\"false\" displayValue=\"System.OperationCanceledException\" />\n          <option name=\"timeStamp\" value=\"1\" />\n        </breakpoint>\n        <breakpoint enabled=\"true\" type=\"DotNet_Exception_Breakpoints\">\n          <properties exception=\"System.Threading.Tasks.TaskCanceledException\" breakIfHandledByOtherCode=\"false\" displayValue=\"System.Threading.Tasks.TaskCanceledException\" />\n          <option name=\"timeStamp\" value=\"2\" />\n        </breakpoint>\n        <breakpoint enabled=\"true\" type=\"DotNet_Exception_Breakpoints\">\n          <properties exception=\"System.Threading.ThreadAbortException\" breakIfHandledByOtherCode=\"false\" displayValue=\"System.Threading.ThreadAbortException\" />\n          <option name=\"timeStamp\" value=\"3\" />\n        </breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n  <component name=\"github-copilot-workspace\">\n    <instructionFileLocations>\n      <option value=\".github/instructions\" />\n    </instructionFileLocations>\n    <promptFileLocations>\n      <option value=\".github/prompts\" />\n    </promptFileLocations>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 279115c1c9cc3f3390c12ebc3b5b60c007318c40)
++++ b/.idea/workspace.xml	(date 1770491554928)
+@@ -5,11 +5,9 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Build.zip" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Scripts/Entity/ScienceMachine.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Entity/ScienceMachine.lua" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Scripts/Control/ExlusiveTechnologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Control/ExlusiveTechnologies.lua" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/locale/en/whatever.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/locale/en/whatever.cfg" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -35,7 +33,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="fork/EBTheHero/menu-simulations-fix" />
++        <entry key="$PROJECT_DIR$" value="master" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -80,17 +78,17 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "git-widget-placeholder": "new-features-from-1.5.28",
++    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable"
+   }
+-}</component>
++}]]></component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+       <changelist id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="" />
+@@ -137,7 +135,9 @@
+     <MESSAGE value="3 updates in 2 hours" />
+     <MESSAGE value="1.5.25" />
+     <MESSAGE value="1.5.27" />
+-    <option name="LAST_COMMIT_MESSAGE" value="1.5.27" />
++    <MESSAGE value="New Surface Condition, and can't build accumulators on igrys" />
++    <MESSAGE value="Magic Speed and Reach" />
++    <option name="LAST_COMMIT_MESSAGE" value="Magic Speed and Reach" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
