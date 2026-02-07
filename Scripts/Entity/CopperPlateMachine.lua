@@ -120,6 +120,5 @@ local restrictedRecipe =
     }
 
 data:extend{restrictedRecipe}
-PlanetsLib.restrict_to_planet(data.raw["assembling-machine"]["igrys-copper-plate-machine"], "igrys")
 
 -- Todo add circuit network support

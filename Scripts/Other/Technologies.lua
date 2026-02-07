@@ -447,5 +447,60 @@ data:extend({
         },
         max_level = "infinite",
         upgrade = true
+    }, {
+        type = "technology",
+        name = "igrys-magic-reach",
+        icons = {
+            {
+                icon = "__Igrys__/Assets/Technologies/mineral-science-pack.png",
+                icon_size = 1024,
+            },
+            {
+                icon = "__Igrys__/Assets/Other/rich-icon.png",
+                scale = 2,
+                icon_size = 16,
+                shift = { 40, 40 }
+            }
+        },
+        effects = {
+            { type = "character-build-distance", modifier = 10 },
+            { type = "character-reach-distance", modifier = 10 },
+            { type = "character-resource-reach-distance", modifier = 10 },
+            { type = "character-item-drop-distance", modifier = 10 }
+        },
+        prerequisites = { "igrys-mineral-science" },
+        unit = {
+            count = 1,
+            ingredients = {
+                { "igrys-mineral-science-pack", 1 }
+            },
+            time = 60,
+        },
+    }, {
+        type = "technology",
+        name = "igrys-magic-speed",
+        icons = {
+            {
+                icon = "__Igrys__/Assets/Technologies/mineral-science-pack.png",
+                icon_size = 1024,
+            },
+            {
+                icon = "__Igrys__/Assets/Other/rich-icon.png",
+                scale = 2,
+                icon_size = 16,
+                shift = { 40, 40 }
+            }
+        },
+        effects = {
+            { type = "character-running-speed", modifier = 1 },
+        },
+        prerequisites = { "igrys-mineral-science" },
+        unit = {
+            count = 1,
+            ingredients = {
+                { "igrys-mineral-science-pack", 1 }
+            },
+            time = 60,
+        },
     },
 })

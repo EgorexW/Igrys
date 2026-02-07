@@ -39,6 +39,7 @@ PlanetsLib:extend({
             ["solar-power"] = 600, -- No atmosphere
             pressure = 3000,
             gravity = 3,
+            ["magic"] = 1,
         },
         asteroid_spawn_influence = 1,
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.gleba_fulgora, 0.9),
@@ -74,3 +75,13 @@ data:extend({
 
 PlanetsLib.borrow_music(data.raw["planet"]["nauvis"], data.raw["planet"]["igrys"])
 data:extend{PlanetsLib.visit_planet_achievement(data.raw["planet"]["igrys"], "__Igrys__/Assets/Other/achievement.png")}
+
+data:extend({
+    {
+        type = "surface-property",
+        name = "magic",
+        default_value = 0,
+        hidden_in_factoriopedia = true,
+        hidden = true,
+    }
+})
