@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/Planet/SurfaceConditions.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_01_2026,_19_23_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_01_2026__19_23__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Entity/CopperPlateMachine.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Entity/CopperPlateMachine.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Items/Cermet.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Items/Cermet.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Items/ConductiveBrick.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Items/ConductiveBrick.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Items/NewSciencePack.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Items/NewSciencePack.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Planet.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Planet.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/MagicFluidProcessing.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/MagicFluidProcessing.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/MagicTeseract.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/MagicTeseract.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-updates.lua" beforeDir="false" afterPath="$PROJECT_DIR$/data-updates.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Control/ExlusiveTechnologies.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Control/EffectsDuringDay.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control.lua" beforeDir="false" afterPath="$PROJECT_DIR$/control.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locale/en/whatever.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/locale/en/whatever.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +137,8 @@
     <MESSAGE value="3 updates in 2 hours" />
     <MESSAGE value="1.5.25" />
     <MESSAGE value="1.5.27" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5.27" />
+    <MESSAGE value="New Surface Condition, and can't build accumulators on igrys" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Surface Condition, and can't build accumulators on igrys" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

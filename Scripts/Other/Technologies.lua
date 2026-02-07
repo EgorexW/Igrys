@@ -447,5 +447,38 @@ data:extend({
         },
         max_level = "infinite",
         upgrade = true
+    }, {
+        type = "technology",
+        name = "igrys-magic-reach",
+        icon = "__Igrys__/Assets/Technologies/magic-teseract.png",
+        effects = {
+            { type = "character-build-distance", modifier = 10 },
+            { type = "character-reach-distance", modifier = 10 },
+            { type = "character-resource-reach-distance", modifier = 10 },
+            { type = "character-item-drop-distance", modifier = 10 }
+        },
+        prerequisites = { "igrys-mineral-science" },
+        unit = {
+            count = 1,
+            ingredients = {
+                { "igrys-mineral-science-pack", 1 }
+            },
+            time = 60,
+        },
+    }, {
+        type = "technology",
+        name = "igrys-magic-speed",
+        icon = "__Igrys__/Assets/Technologies/magic-teseract.png",
+        effects = {
+            { type = "character-running-speed", modifier = 1 },
+        },
+        prerequisites = { "igrys-mineral-science" },
+        unit = {
+            count = 1,
+            ingredients = {
+                { "igrys-mineral-science-pack", 1 }
+            },
+            time = 60,
+        },
     },
 })
