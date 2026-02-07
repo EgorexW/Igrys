@@ -27,4 +27,3 @@ data:extend{
 }
 
 PlanetsLib.set_default_import_location("igrys-conductive-brick", "igrys")
-PlanetsLib.restrict_to_planet(data.raw["recipe"]["igrys-conductive-brick"], "igrys")

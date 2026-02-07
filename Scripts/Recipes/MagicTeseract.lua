@@ -72,8 +72,3 @@ data:extend({
         },
     }
 })
-
-PlanetsLib.restrict_to_planet(data.raw["recipe"]["igrys-rich-magic-teseract"], "igrys")
-PlanetsLib.restrict_to_planet(data.raw["recipe"]["igrys-magic-teseract-1"], "igrys")
-PlanetsLib.restrict_to_planet(data.raw["recipe"]["igrys-magic-teseract-2"], "igrys")
-PlanetsLib.restrict_to_planet(data.raw["recipe"]["igrys-magic-teseract-3"], "igrys")

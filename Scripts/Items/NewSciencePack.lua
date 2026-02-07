@@ -29,4 +29,3 @@ data:extend{
 }
 
 PlanetsLib.set_default_import_location("igrys-mineral-science-pack", "igrys")
-PlanetsLib.restrict_to_planet(data.raw["recipe"]["igrys-mineral-science-pack"], "igrys")

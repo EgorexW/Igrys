@@ -59,5 +59,3 @@ data:extend{
         order = "e"
     }
 }
-
-PlanetsLib.restrict_to_planet(data.raw["recipe"]["igrys-cermet"], "igrys")

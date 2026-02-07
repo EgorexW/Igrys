@@ -20,5 +20,3 @@ data:extend({
         order = "a[magic-fluid-processing]"
     }
 })
-
-PlanetsLib.restrict_to_planet(data.raw["recipe"]["igrys-magic-fluid-processing"], "igrys")
