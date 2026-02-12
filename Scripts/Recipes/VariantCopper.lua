@@ -19,22 +19,6 @@ data:extend{
         auto_recycle = false
     }, {
         type = "recipe",
-        name = "igrys-copper-rail",
-        enabled = false,
-        ingredients =
-        {
-            {type = "item", name = "stone", amount = 1},
-            {type = "item", name = "igrys-conductive-brick", amount = 1},
-            {type = "item", name = "steel-plate", amount = 1}
-        },
-        results = {{type="item", name="rail", amount=2}},
-        icons = MadeFromIcons("__base__/graphics/icons/rail.png", "__Igrys__/Assets/Items/conductive-brick.png"),
-        order = "a[rail]-b[igrys-copper-rail]",
-        category = "advanced-crafting",
-        allow_as_intermediate = false,
-        auto_recycle = false
-    }, {
-        type = "recipe",
         name = "igrys-sulfuric-acid",
         enabled = false,
         category = "chemistry-or-cryogenics",

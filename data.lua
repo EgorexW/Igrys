@@ -36,3 +36,5 @@ require("Scripts.Other.SpidertronSteal")
 require("Scripts.Other.BaseIntegration")
 
 require("Scripts.Compatibility.data")
+
+require("Scripts.MagRails.MagRails")
