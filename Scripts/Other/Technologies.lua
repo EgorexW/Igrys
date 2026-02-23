@@ -91,9 +91,6 @@ data:extend({
             {
                 type = "unlock-recipe",
                 recipe = "igrys-magic-pumpjack"
-            }, {
-                type = "unlock-recipe",
-                recipe = "igrys-copper-rail"
             }
         },
         prerequisites = {
