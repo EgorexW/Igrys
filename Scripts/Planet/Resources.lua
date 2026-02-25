@@ -99,14 +99,14 @@ data:extend{
         autoplace = resource_autoplace.resource_autoplace_settings
         {
             name = "igrys-magic-fluid",
-            order = "c", -- Other resources are "b"; oil won't get placed if something else is already there.
+            order = "a", -- Other resources are "b"; oil won't get placed if something else is already there.
             base_density = 50,
             base_spots_per_km2 = 10,
             random_probability = 1/4,
             random_spot_size_minimum = 1,
             random_spot_size_maximum = 3, -- don't randomize spot size
             additional_richness = 220000, -- this increases the total everywhere, so base_density needs to be decreased to compensate
-            has_starting_area_placement = false,
+            has_starting_area_placement = true,
             regular_rq_factor_multiplier = 1,
         },
         stage_counts = {0},
@@ -162,7 +162,7 @@ data:extend{
         autoplace = resource_autoplace.resource_autoplace_settings
         {
             name = "igrys-water",
-            order = "c", -- Other resources are "b"; oil won't get placed if something else is already there.
+            order = "a", -- Other resources are "b"; oil won't get placed if something else is already there.
             base_density = 50,
             base_spots_per_km2 = 10,
             random_probability = 1/4,

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Build.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Resources.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Resources.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Tiles.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Tiles.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +185,9 @@
     <MESSAGE value="New Surface Condition, and can't build accumulators on igrys" />
     <MESSAGE value="Magic Speed and Reach" />
     <MESSAGE value="1.5.29" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5.29" />
+    <MESSAGE value="1.5.31" />
+    <MESSAGE value="Add .gitignore to exclude macOS files, IDEs, and build artifacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore to exclude macOS files, IDEs, and build artifacts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

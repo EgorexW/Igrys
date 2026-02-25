@@ -8,6 +8,7 @@ data:extend({
         name = "igrys-light-oil",
         autoplace =
         {
+            order = "aa",
             probability_expression = "noise_igrys_light_oil > 0",
         },
         collision_mask = tile_collision_masks.oil_ocean_shallow(),
