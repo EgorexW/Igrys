@@ -24,11 +24,11 @@ data:extend({
                     {
                         direction = defines.direction.west,
                         position = {-1, 0},
-                        flow_direction = "input",
+                        flow_direction = "input-output"
                     }, {
                         direction = defines.direction.east,
                         position = {1, 0},
-                        flow_direction = "input"
+                        flow_direction = "input-output"
                     }
                 }
             },
@@ -52,7 +52,7 @@ data:extend({
                 }
             }
         },
-        energy_usage = "60W",
+        energy_usage = "15W",
         mining_speed = 2,
         effect_receiver = { base_effect = { productivity = 1 } },
         resource_searching_radius = 0.49,

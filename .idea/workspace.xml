@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Build.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Resources.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Resources.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Tiles.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Tiles.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Entity/MagicFluidPumper.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Entity/MagicFluidPumper.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,7 @@
     </selectedModels>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="143" />
+    <option name="cachedIndexableFilesCount" value="145" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -50,31 +50,31 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDOOLPaUc6kezAU",
-        "number": 11
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOOLPaUc6kezAU&quot;,
+        &quot;number&quot;: 11
       },
-      "lastSeen": 1769538022839
+      &quot;lastSeen&quot;: 1769538022839
     },
     {
-      "id": {
-        "id": "PR_kwDOOLPaUc7CNbi-",
-        "number": 21
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOOLPaUc7CNbi-&quot;,
+        &quot;number&quot;: 21
       },
-      "lastSeen": 1770491624081
+      &quot;lastSeen&quot;: 1770491624081
     },
     {
-      "id": {
-        "id": "PR_kwDOOLPaUc7FuJxQ",
-        "number": 22
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOOLPaUc7FuJxQ&quot;,
+        &quot;number&quot;: 22
       },
-      "lastSeen": 1771871943168
+      &quot;lastSeen&quot;: 1771871943168
     }
   ]
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/EgorexW/Igrys.git&quot;,
@@ -117,6 +117,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -151,7 +152,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/mag-rails" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -187,7 +188,8 @@
     <MESSAGE value="1.5.29" />
     <MESSAGE value="1.5.31" />
     <MESSAGE value="Add .gitignore to exclude macOS files, IDEs, and build artifacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore to exclude macOS files, IDEs, and build artifacts" />
+    <MESSAGE value="Fixes for world gen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes for world gen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

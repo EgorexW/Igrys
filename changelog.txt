@@ -2,7 +2,9 @@
 Version: 1.5.32
 Date: 2026-02-23
   Tweaks:
+    - Magic pumpjacks fluid boxes for water are now input-output instead of just input
     - Tried to improve world gen resource generation
+    - Magic pumpjack requires 4 times less water now
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.31
 Date: 2026-02-23
