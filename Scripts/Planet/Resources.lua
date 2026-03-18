@@ -99,12 +99,12 @@ data:extend{
         autoplace = resource_autoplace.resource_autoplace_settings
         {
             name = "igrys-magic-fluid",
-            order = "a", -- Other resources are "b"; oil won't get placed if something else is already there.
+            order = "a",
             base_density = 50,
             base_spots_per_km2 = 10,
             random_probability = 1/4,
             random_spot_size_minimum = 1,
-            random_spot_size_maximum = 3, -- don't randomize spot size
+            random_spot_size_maximum = 3,
             additional_richness = 220000, -- this increases the total everywhere, so base_density needs to be decreased to compensate
             has_starting_area_placement = true,
             regular_rq_factor_multiplier = 1,
@@ -162,12 +162,12 @@ data:extend{
         autoplace = resource_autoplace.resource_autoplace_settings
         {
             name = "igrys-water",
-            order = "a", -- Other resources are "b"; oil won't get placed if something else is already there.
+            order = "a",
             base_density = 50,
             base_spots_per_km2 = 10,
             random_probability = 1/4,
             random_spot_size_minimum = 1,
-            random_spot_size_maximum = 3, -- don't randomize spot size
+            random_spot_size_maximum = 3,
             additional_richness = 220000, -- this increases the total everywhere, so base_density needs to be decreased to compensate
             has_starting_area_placement = true,
             regular_rq_factor_multiplier = 1,
@@ -189,3 +189,19 @@ data:extend{
 }
 
 -- Todo add tint to the sprite
+
+--data:extend{
+--    {
+--        type = "autoplace-control",
+--        name = "igrys-magic-fluid",
+--        category = "resource",
+--        richness = true,
+--        can_be_disabled = false,
+--    },{
+--        type = "autoplace-control",
+--        name = "igrys-water",
+--        category = "resource",
+--        richness = true,
+--        can_be_disabled = false,
+--    }
+--}
