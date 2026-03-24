@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Resources.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Resources.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locale/en/whatever.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/locale/en/whatever.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Build.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +188,8 @@
     <MESSAGE value="Add .gitignore to exclude macOS files, IDEs, and build artifacts" />
     <MESSAGE value="Fixes for world gen" />
     <MESSAGE value="Magicpumpjack changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Magicpumpjack changes" />
+    <MESSAGE value="Tried to add autoplace controls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tried to add autoplace controls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
