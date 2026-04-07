@@ -1,8 +1,9 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.33
-Date: 2026-
+Date: 2026-04-07
   Tweaks:
     - Mineral science pack recipe now gives 2 science packs instead of 1
+    - Setting to disable the infuse technologies
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.32
 Date: 2026-03-18

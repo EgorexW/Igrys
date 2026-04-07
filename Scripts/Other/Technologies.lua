@@ -473,6 +473,7 @@ data:extend({
             },
             time = 60,
         },
+        hidden =  settings.startup["igrys-disable-magic-technologies"].value
     }, {
         type = "technology",
         name = "igrys-magic-speed",
@@ -499,5 +500,6 @@ data:extend({
             },
             time = 60,
         },
+        hidden =  settings.startup["igrys-disable-magic-technologies"].value
     },
 })
