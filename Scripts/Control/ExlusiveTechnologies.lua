@@ -1,4 +1,5 @@
 function OnResearch(details)
+    if #details.research.force.players == 0 then return end
     if details.research.name == "igrys-magic-speed" then
         if details.research.force.technologies["igrys-magic-reach"].researched then
             details.research.force.technologies["igrys-magic-reach"].researched = false

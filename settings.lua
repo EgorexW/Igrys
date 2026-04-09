@@ -32,7 +32,7 @@ data:extend({
         default_value = 60,
         minimum_value = 30,
         maximum_value = 200
-    }, {
+    },{
         type = "bool-setting",
         name = "igrys-disable-magic-technologies",
         setting_type = "startup",
