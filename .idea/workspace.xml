@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Build.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Control/ExlusiveTechnologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Control/ExlusiveTechnologies.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.lua" beforeDir="false" afterPath="$PROJECT_DIR$/settings.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +163,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="1.5.5" />
     <MESSAGE value="1.5.6" />
     <MESSAGE value="1.5.7" />
     <MESSAGE value="Different tiles" />
@@ -193,7 +187,8 @@
     <MESSAGE value="Tried to add autoplace controls" />
     <MESSAGE value="Update version to 1.5.33 and modify mineral science pack recipe to yield 2 packs" />
     <MESSAGE value="Add setting to disable infuse technologies and update changelog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add setting to disable infuse technologies and update changelog" />
+    <MESSAGE value="1.5.34" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.5.34" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
