@@ -163,7 +163,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="1.5.6" />
     <MESSAGE value="1.5.7" />
     <MESSAGE value="Different tiles" />
     <MESSAGE value="v 1.5.10" />
@@ -188,7 +187,8 @@
     <MESSAGE value="Update version to 1.5.33 and modify mineral science pack recipe to yield 2 packs" />
     <MESSAGE value="Add setting to disable infuse technologies and update changelog" />
     <MESSAGE value="1.5.34" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5.34" />
+    <MESSAGE value="Update science enhancer machine description for clarity and clean up workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update science enhancer machine description for clarity and clean up workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
