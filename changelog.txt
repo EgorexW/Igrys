@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.36
+Date: 2026-05-15
+  Bugfixes:
+    - Conductive Brick no longer enabled
+    - Strong Barrels no longer are affected by productivity or quality
+---------------------------------------------------------------------------------------------------
 Version: 1.5.35
 Date: 2026-05-15
   Features:

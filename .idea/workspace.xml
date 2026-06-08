@@ -6,11 +6,32 @@
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Items/ConductiveBrick.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Items/ConductiveBrick.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="d1053842-d619-47f5-a396-982d1ec73973" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="d1053842-d619-47f5-a396-982d1ec73973" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="gpt-5-mini" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
@@ -25,7 +46,7 @@
     </selectedModels>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="145" />
+    <option name="cachedIndexableFilesCount" value="146" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -163,7 +184,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="1.5.7" />
     <MESSAGE value="Different tiles" />
     <MESSAGE value="v 1.5.10" />
     <MESSAGE value="v 1.5.12" />
@@ -188,7 +208,8 @@
     <MESSAGE value="Add setting to disable infuse technologies and update changelog" />
     <MESSAGE value="1.5.34" />
     <MESSAGE value="Update science enhancer machine description for clarity and clean up workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update science enhancer machine description for clarity and clean up workspace.xml" />
+    <MESSAGE value="1.5.35" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.5.35" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

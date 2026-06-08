@@ -11,6 +11,7 @@ data:extend{
     {
         type = "recipe",
         name = "igrys-conductive-brick",
+        enabled = false,
         allow_productivity = true,
         ingredients = {
             {type="item", name="stone-brick", amount=1},
