@@ -135,7 +135,7 @@ data:extend{
         {
             {type="item", name="igrys-science-enhancer-machine", amount=1},
         },
-        category = "advanced-crafting",
+        categories = {"advanced-crafting"},
     }
 }
 

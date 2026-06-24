@@ -2,7 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "igrys-magic-fluid-processing",
-        category = "chemistry",
+        categories = {"chemistry"},
         subgroup = "igrys-magic",
         enabled = settings.startup["igrys-enable-all"].value,
         energy_required = 5,

@@ -165,7 +165,7 @@ local restrictedRecipe =
         {type="item", name="igrys-magic-pumpjack", amount=1},
     },
     energy_required = 30,
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     subgroup = "igrys-machine",
 }
 

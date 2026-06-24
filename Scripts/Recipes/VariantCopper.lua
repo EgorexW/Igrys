@@ -14,14 +14,14 @@ data:extend{
         enabled = false,
         allow_productivity = true,
         energy_required = 3,
-        category = "electronics",
+        categories = {"crafting", "electromagnetics"},
         allow_as_intermediate = false,
         auto_recycle = false
     }, {
         type = "recipe",
         name = "igrys-sulfuric-acid",
         enabled = false,
-        category = "chemistry-or-cryogenics",
+        categories = {"chemistry", "cryogenics"},
         subgroup = "fluid-recipes",
         energy_required = 1,
         ingredients =
@@ -41,7 +41,7 @@ data:extend{
     }, {
         type = "recipe",
         name = "igrys-plastic-bar",
-        category = "chemistry-or-cryogenics",
+        categories = {"chemistry", "cryogenics"},
         energy_required = 1,
         enabled = false,
         auto_recycle = false,

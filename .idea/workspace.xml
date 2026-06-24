@@ -6,7 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Build.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Compatibility/Riteg-Metal-and-Stars.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Compatibility/Riteg-Metal-and-Stars.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Control/CopperPlateMachine.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Control/CopperPlateMachine.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Control/EnrichedRecipeEnable.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Control/EnrichedRecipeEnable.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Control/MagicField.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Control/MagicField.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Entity/CopperPlateMachine.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Entity/CopperPlateMachine.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Entity/GlassSpaceRocket.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Entity/GlassSpaceRocket.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Entity/MagicFluidPumper.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Entity/MagicFluidPumper.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Entity/ScienceMachine.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Entity/ScienceMachine.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Items/Cermet.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Items/Cermet.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Items/ConductiveBrick.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Items/ConductiveBrick.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Items/Glass.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Items/Glass.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Items/NewSciencePack.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Items/NewSciencePack.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Items/StrongBarrel.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Items/StrongBarrel.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/MagRails/MagRails.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/MagRails/MagRails.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Planet/Resources.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Planet/Resources.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/Concrete.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/Concrete.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/EnhancedSciencePacks.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/EnhancedSciencePacks.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/EnrichingMagicParts.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/EnrichingMagicParts.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/MagicFluidProcessing.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/MagicFluidProcessing.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/MagicTeseract.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/MagicTeseract.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/StuffOutOfThinAir.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/StuffOutOfThinAir.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/VariantCopper.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/VariantCopper.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Recipes/VariantSciencePacks.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Recipes/VariantSciencePacks.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
     </list>
@@ -109,10 +133,6 @@
     &quot;repository&quot;: &quot;Igrys&quot;
   }
 }</component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="vcs:///Users/egorexw/Library/Application Support/factorio/mods/Igrys/Scripts/Recipes/VariantSciencePacks.lua" root0="FORCE_HIGHLIGHTING" />
-    <setting file="vcs:///Users/egorexw/Library/Application Support/factorio/mods/Igrys/info.json" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -184,7 +204,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Different tiles" />
     <MESSAGE value="v 1.5.10" />
     <MESSAGE value="v 1.5.12" />
     <MESSAGE value="1.5.13" />
@@ -209,7 +228,8 @@
     <MESSAGE value="1.5.34" />
     <MESSAGE value="Update science enhancer machine description for clarity and clean up workspace.xml" />
     <MESSAGE value="1.5.35" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5.35" />
+    <MESSAGE value="1.5.36" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.5.36" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

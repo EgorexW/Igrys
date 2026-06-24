@@ -1,5 +1,5 @@
 function OnEntityBuild (event)
-    event.entity.active = not storage.day
+    event.entity.disabled_by_script = storage.day
 end
 
 script.on_event(defines.events.on_built_entity, OnEntityBuild,
@@ -10,7 +10,7 @@ script.on_event(defines.events.on_robot_built_entity, OnEntityBuild,
 function TurnCopperPlateMachines(day)
     local igrysSurface = game.surfaces["igrys"]
     for _, machine in ipairs(igrysSurface.find_entities_filtered{name = "igrys-copper-plate-machine"}) do
-        machine.active = not day
+        machine.disabled_by_script = day
         --game.print("Turning " .. tostring(machine.active) .. " machine.active")
     end
 end

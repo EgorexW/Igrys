@@ -115,7 +115,7 @@ local restrictedRecipe =
             {type="item", name="igrys-copper-plate-machine", amount=1},
         },
         energy_required = 30,
-        category = "crafting",
+        categories = {"crafting"},
         subgroup = "igrys-machine",
     }
 

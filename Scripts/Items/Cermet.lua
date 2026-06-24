@@ -22,7 +22,7 @@ data:extend{
             {type="item", name="igrys-cermet", amount=1},
         },
         energy_required = 2,
-        category = "chemistry",
+        categories = {"chemistry"},
         --auto_recycle = false
     },
 
@@ -48,7 +48,7 @@ data:extend{
             {type="item", name="igrys-raw-cermite", amount=1},
         },
         energy_required = 5,
-        category = "advanced-crafting",
+        categories = {"advanced-crafting"},
     }, {
         type = "item",
         name = "igrys-cermite",

@@ -90,7 +90,7 @@ data:extend{
                     name = "igrys-magic-fluid",
                     amount_min = 10,
                     amount_max = 10,
-                    probability = 1
+                    independent_probability = 1
                 },
             },
         },
@@ -153,7 +153,7 @@ data:extend{
                     name = "water",
                     amount_min = 10,
                     amount_max = 10,
-                    probability = 1
+                    independent_probability = 1
                 },
             }
         },

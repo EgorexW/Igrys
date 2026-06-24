@@ -13,7 +13,7 @@ data:extend({
             {type="item", name="refined-concrete", amount=1}
         },
         energy_required = 25,
-        category = "advanced-crafting",
+        categories = {"advanced-crafting"},
         allow_as_intermediate = false,
         auto_recycle = false,
         icons = MadeFromIcons(data.raw["item"]["igrys-raw-cermite"].icon, data.raw["item"]["concrete"].icon),

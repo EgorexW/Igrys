@@ -1,6 +1,6 @@
 data:extend{
     {
-        type = "tool",
+        type = "item",
         name = "igrys-mineral-science-pack",
         icon = "__Igrys__/Assets/Items/mineral-science-pack.png",
         

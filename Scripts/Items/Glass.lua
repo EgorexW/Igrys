@@ -22,7 +22,7 @@ local glass = {
         },
         main_product = "igrys-glass",
         energy_required = 60,
-        category = "crafting"
+        categories = {"crafting"}
     }
     
     data:extend{glass, glassRecipe}

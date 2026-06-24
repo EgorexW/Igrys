@@ -12,7 +12,7 @@ data:extend({
             {type="item", name="igrys-rich-magic-part-1", amount=1},
         },
         energy_required = 5,
-        category = "advanced-crafting",
+        categories = {"advanced-crafting"},
     }, {
         type = "recipe",
         name = "igrys-rich-magic-part-2",
@@ -26,7 +26,7 @@ data:extend({
             {type="item", name="igrys-rich-magic-part-2", amount=1},
         },
         energy_required = 5,
-        category = "advanced-crafting",
+        categories = {"advanced-crafting"},
     }, {
         type = "recipe",
         name = "igrys-rich-magic-part-3",
@@ -40,6 +40,6 @@ data:extend({
             {type="item", name="igrys-rich-magic-part-3", amount=1},
         },
         energy_required = 5,
-        category = "advanced-crafting",
+        categories = {"advanced-crafting"},
     },
 })

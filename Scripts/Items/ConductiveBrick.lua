@@ -22,7 +22,7 @@ data:extend{
         },
         main_product = "igrys-conductive-brick",
         energy_required = 3,
-        category = "electronics"
+        categories = {"crafting", "electromagnetics"}
     }
 }
 

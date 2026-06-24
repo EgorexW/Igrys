@@ -13,7 +13,7 @@ if not mods["maglev-straightaways"] then
             results = {{type="item", name="rail", amount=2}},
             icons = MadeFromIcons("__base__/graphics/icons/rail.png", "__Igrys__/Assets/Items/conductive-brick.png"),
             order = "a[rail]-b[igrys-copper-rail]",
-            category = "advanced-crafting",
+            categories = {"advanced-crafting"},
             allow_as_intermediate = false,
             auto_recycle = false
         }, 
@@ -79,7 +79,7 @@ data:extend{
             {type = "item", name = "maglev-rail", amount = 30}
         },
         results = {{type="item", name="production-science-pack", amount=5}},
-        icons = MadeFromIcons(data.raw["tool"]["production-science-pack"].icon, maglevRailIcon),
+        icons = MadeFromIcons(data.raw["item"]["production-science-pack"].icon, maglevRailIcon),
         order = "ez[production-science-pack]",
         allow_productivity = true
     },

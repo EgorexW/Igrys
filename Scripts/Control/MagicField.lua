@@ -8,7 +8,7 @@ function CreateMagicField(event)
             position = {chunkpos.x * 32 + 16, chunkpos.y * 32 + 16},
             create_build_effect_smoke = false
         }
-        fancy_water.active = false
+        --fancy_water.active = false
         fancy_water.destructible = false
         fancy_water.minable_flag = false
     end

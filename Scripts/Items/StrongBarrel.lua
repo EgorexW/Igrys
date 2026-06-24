@@ -21,7 +21,7 @@ data:extend({
             { type = "item", name = "igrys-strong-barrel", amount = 10 },
         },
         energy_required = 10,
-        category = "advanced-crafting"
+        categories = {"advanced-crafting"}
     }, {
         type = "item",
         name = "igrys-magic-fluid-barrel",
@@ -52,7 +52,7 @@ data:extend({
             {type="item", name="igrys-magic-fluid-barrel", amount=1, ignored_by_stats = 1, ignored_by_productivity = 1},
         },
         energy_required = 1,
-        category = "crafting-with-fluid",
+        categories = {"crafting-with-fluid"},
         auto_recycle = false,
     }, {
         type = "recipe",
@@ -69,7 +69,7 @@ data:extend({
             {type="item", name="igrys-strong-barrel", amount=1, ignored_by_stats = 1, ignored_by_productivity = 1}
         },
         energy_required = 1,
-        category = "crafting-with-fluid",
+        categories = {"crafting-with-fluid"},
         icon = "__Igrys__/Assets/Items/Barrel/Empty.png",
         icon_size = 128,
         order = "c",

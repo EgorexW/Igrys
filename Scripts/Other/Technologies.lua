@@ -117,7 +117,7 @@ data:extend({
         },
         research_trigger = {
             type = "mine-entity",
-            entity = "igrys-magic-fluid",
+            entities = {"igrys-magic-fluid"},
             count = 1
         }
     }, {

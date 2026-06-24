@@ -4,7 +4,7 @@ data:extend({
     {
         type = "recipe",
         name = "igrys-magic-teseract-1",
-        category = "advanced-crafting",
+        categories = {"advanced-crafting"},
         subgroup = "igrys-magic",
         enabled = settings.startup["igrys-enable-all"].value,
         energy_required = 10,
@@ -22,7 +22,7 @@ data:extend({
     },{
         type = "recipe",
         name = "igrys-magic-teseract-2",
-        category = "advanced-crafting",
+        categories = {"advanced-crafting"},
         subgroup = "igrys-magic",
         enabled = settings.startup["igrys-enable-all"].value,
         energy_required = 10,
@@ -40,7 +40,7 @@ data:extend({
     },{
         type = "recipe",
         name = "igrys-magic-teseract-3",
-        category = "advanced-crafting",
+        categories = {"advanced-crafting"},
         subgroup = "igrys-magic",
         enabled = settings.startup["igrys-enable-all"].value,
         energy_required = 10,
@@ -58,7 +58,7 @@ data:extend({
     },{
         type = "recipe",
         name = "igrys-rich-magic-teseract",
-        category = "advanced-crafting",
+        categories = {"advanced-crafting"},
         subgroup = "igrys-magic",
         enabled = settings.startup["igrys-enable-all"].value,
         energy_required = 10,

@@ -8,6 +8,6 @@ data:extend({
             {type="item", name="copper-plate", amount=1},
         },
         energy_required = 0.5,
-        category = "igrys-making-stuff-out-of-thin-air"
+        categories = {"igrys-making-stuff-out-of-thin-air"}
     }
 })

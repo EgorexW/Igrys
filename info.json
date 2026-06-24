@@ -1,9 +1,9 @@
 {
   "name": "Igrys",
-  "version": "1.5.36",
+  "version": "1.5.37",
   "title": "Igrys",
   "author": "EgorexW",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.0",
     "space-age >= 1.0",

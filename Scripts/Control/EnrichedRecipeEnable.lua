@@ -2,7 +2,7 @@ function ReloadEnrichedRecipes()
     for forceName, force in pairs(game.forces) do
         if force.technologies["igrys-science-enriching"].researched then
             for recipeName, recipe in pairs(force.recipes) do
-                if recipe.category == "igrys-enriched-science-pack" then
+                if recipe.prototype.has_category("igrys-enriched-science-pack") then
                     -- Removes the "igrys-" prefix and the "-enriched" suffix to get the base recipe name
                     local baseRecipe = force.recipes[string.sub(recipeName, 6 + 1, #recipeName - 9)]
                     --game.print("Checking base recipe " .. string.sub(recipeName, 6 + 1, #recipeName - 9))
