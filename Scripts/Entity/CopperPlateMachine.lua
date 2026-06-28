@@ -29,6 +29,7 @@ data:extend({
         map_color = {129, 105, 78},
         render_layer = "object",
         max_health = 500,
+        allowed_effects = { "consumption", "speed", "productivity", "pollution", "quality" },
         graphics_set =
         {
             animation =
