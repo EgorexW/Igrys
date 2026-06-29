@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Build.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Entity/CopperPlateMachine.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Entity/CopperPlateMachine.lua" afterDir="false" />
-    </list>
+    <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,8 +175,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="v 1.5.12" />
-    <MESSAGE value="1.5.13" />
     <MESSAGE value="QoL changes" />
     <MESSAGE value="Setting for adding science pack to promethium" />
     <MESSAGE value="1.5.15" />
@@ -204,7 +198,9 @@
     <MESSAGE value="1.5.35" />
     <MESSAGE value="1.5.36" />
     <MESSAGE value="1.5.37" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5.37" />
+    <MESSAGE value="Add allowed effects to CopperPlateMachine and clean up workspace.xml" />
+    <MESSAGE value="Bump version to 1.5.38 and update changelog for Copper plate machine beacon effects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bump version to 1.5.38 and update changelog for Copper plate machine beacon effects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

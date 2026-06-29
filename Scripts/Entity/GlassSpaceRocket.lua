@@ -1,8 +1,14 @@
 glassTint = {r = 0.8, g = 1, b = 1, a = 0.6}
 local rocket_shift = 48
 
+local glassRocketPartCategory = {
+    type = "recipe-category",
+    name = "igrys-glass-rocket-building"
+}
+
 local glassSpaceRocketEntity = table.deepcopy(data.raw["rocket-silo"]["rocket-silo"])
 glassSpaceRocketEntity.name = "igrys-glass-space-rocket"
+glassSpaceRocketEntity.crafting_categories = {"igrys-glass-rocket-building"}
 glassSpaceRocketEntity.minable.result = "igrys-glass-space-rocket"
 glassSpaceRocketEntity.fixed_recipe = "igrys-glass-rocket-part"
 glassSpaceRocketEntity.rocket_parts_required = 20
@@ -66,6 +72,7 @@ glassSpaceRocketRecipe.enabled = settings.startup["igrys-enable-all"].value
 
 local glassRocketPartRecipe = table.deepcopy(data.raw["recipe"]["rocket-part"])
 glassRocketPartRecipe.name = "igrys-glass-rocket-part"
+glassRocketPartRecipe.categories = {"igrys-glass-rocket-building"}
 glassRocketPartRecipe.icons = {
     {
         icon = "__base__/graphics/icons/rocket-part.png",
@@ -76,4 +83,4 @@ glassSpaceRocketRecipe.icon = nil
 
 table.insert(glassRocketPartRecipe.ingredients, {type="item", name="igrys-glass", amount=5})
 
-data:extend{glassSpaceRocketEntity, glassRocketSiloRocket, glassSpaceRocketItem, glassSpaceRocketRecipe, glassRocketPartRecipe}
+data:extend{glassRocketPartCategory, glassSpaceRocketEntity, glassRocketSiloRocket, glassSpaceRocketItem, glassSpaceRocketRecipe, glassRocketPartRecipe}

@@ -3,6 +3,7 @@ Version: 1.5.38
 Date: 2026-06-24
   Tweaks:
     - Copper plate machine is now affected by beacons
+    - Igrys glass rocket has it's own recipe category
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.37
 Date: 2026-06-24
