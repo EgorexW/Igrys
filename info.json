@@ -1,6 +1,6 @@
 {
   "name": "Igrys",
-  "version": "1.5.38",
+  "version": "1.5.39",
   "title": "Igrys",
   "author": "EgorexW",
   "factorio_version": "2.1",
@@ -8,7 +8,6 @@
     "base >= 2.0",
     "space-age >= 1.0",
     "PlanetsLib >= 1.2",
-    "? new-diagonal-inserter >= 1.0.5",
     "? maglev-straightaways >= 0.1.0"],
   "description": "Igrys – A new planet with magic-powered science, advanced glassworking, and alternative production chains",
   "space_travel_required": true
