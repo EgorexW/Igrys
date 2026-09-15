@@ -1,0 +1,1 @@
+game.print({"igrys-messages.migration-glass-update"})
