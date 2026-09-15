@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.0
+Date: 2026-09-15
+  Features:
+    - Machines making glass break down when starved of ingredients or if their output inventory fills up. (can be disabled)
+---------------------------------------------------------------------------------------------------
 Version: 1.5.39
 Date: 2026-08-15
   Features:
