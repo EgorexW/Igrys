@@ -13,5 +13,3 @@ function OnResearch(details)
         end
     end
 end
-
-script.on_event(defines.events.on_research_finished, OnResearch)

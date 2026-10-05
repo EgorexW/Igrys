@@ -18,5 +18,4 @@ function ReloadEnrichedRecipes()
 end
 
 script.on_nth_tick(60 * 60 * 30, ReloadEnrichedRecipes) -- Run every half an hour, just in case
-script.on_event(defines.events.on_research_finished, ReloadEnrichedRecipes)
 script.on_configuration_changed(ReloadEnrichedRecipes)
