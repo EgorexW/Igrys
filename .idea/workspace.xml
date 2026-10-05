@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0a8a43-d7c1-40a5-bdf7-403610941d3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Scripts/Entity/DiagonalInserter_FinalFixes.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Control/GlassMachinesBreak.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Control/GlassMachinesBreak.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/GlassMachinesBreak.lua" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/GlassMachinesBreakv2.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Build.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Entity/DiagonalInserter.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Entity/DiagonalInserter.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Other/Technologies.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-final-fixes.lua" beforeDir="false" afterPath="$PROJECT_DIR$/data-final-fixes.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/en/whatever.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/locale/en/whatever.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +51,7 @@
     </selectedModels>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="159" />
+    <option name="cachedIndexableFilesCount" value="146" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -67,24 +73,31 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDOOLPaUc6kezAU",
-        "number": 11
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOOLPaUc6kezAU&quot;,
+        &quot;number&quot;: 11
       },
-      "lastSeen": 1769538022839
+      &quot;lastSeen&quot;: 1769538022839
     },
     {
-      "id": {
-        "id": "PR_kwDOOLPaUc7CNbi-",
-        "number": 21
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOOLPaUc7CNbi-&quot;,
+        &quot;number&quot;: 21
       },
-      "lastSeen": 1770491624081
+      &quot;lastSeen&quot;: 1770491624081
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOOLPaUc7FuJxQ&quot;,
+        &quot;number&quot;: 22
+      },
+      &quot;lastSeen&quot;: 1771871943168
     }
   ]
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/EgorexW/Igrys.git&quot;,
@@ -173,6 +186,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Setting for adding science pack to promethium" />
+    <MESSAGE value="1.5.15" />
     <MESSAGE value="1.5.17" />
     <MESSAGE value="1.5.20" />
     <MESSAGE value="3 updates in 2 hours" />
@@ -196,9 +211,7 @@
     <MESSAGE value="Add allowed effects to CopperPlateMachine and clean up workspace.xml" />
     <MESSAGE value="Bump version to 1.5.38 and update changelog for Copper plate machine beacon effects" />
     <MESSAGE value="Add Igrys glass rocket recipe category and update changelog" />
-    <MESSAGE value="Glass machines break testing" />
-    <MESSAGE value="Add feature to allow glass machines to break down when starved of ingredients or full output" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add feature to allow glass machines to break down when starved of ingredients or full output" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Igrys glass rocket recipe category and update changelog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

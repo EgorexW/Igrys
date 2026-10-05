@@ -37,28 +37,21 @@ data:extend({
         name = "igrys-disable-magic-technologies",
         setting_type = "startup",
         default_value = false
-    },
-    {
-        type = "bool-setting",
-        name = "igrys-glass-machines-can-break",
-        setting_type = "runtime-global",
-        default_value = true,
     }
 })
 
--- Obsolete settings
 if mods["new-diagonal-inserter"] then
     data:extend({
         {
             type = "bool-setting",
             name = "igrys-keep-diagonal-inserter-base",
             setting_type = "startup",
-            default_value = false,
-            hidden = true,
+            default_value = false
         }
     })
 end
 
+-- Obsolete settings
 data:extend({
     {
         type = "bool-setting",
