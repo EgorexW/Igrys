@@ -2,6 +2,11 @@ local TARGET_RECIPE = "igrys-glass" -- Target internal recipe name
 
 function GlassMachinesBreak()
     if not settings.global["igrys-glass-machines-can-break"].value then return end
+
+    -- Blokada: nie psuj maszyn, jeśli trwa okres ochronny z migracji
+    if storage.glass_grace_until and game.tick < storage.glass_grace_until then
+        return
+    end
     
     -- Iterate through every active surface (Nauvis, space platforms, planets, etc.)
     for _, surface in pairs(game.surfaces) do
