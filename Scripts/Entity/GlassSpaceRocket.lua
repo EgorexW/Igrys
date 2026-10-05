@@ -25,14 +25,14 @@ glassSpaceRocketEntity.base_day_sprite = {
     filename = "__Igrys__/Assets/Entity/GlassSpaceRocket/06-rocket-silo.png",
     width = 608,
     height = 596,
-    shift = util.by_pixel(-2, 16),
+    shift = util.by_pixel(3, -1),
     scale = 0.5
 }
 glassSpaceRocketEntity.base_front_sprite = {
     filename = "__Igrys__/Assets/Entity/GlassSpaceRocket/14-rocket-silo-front.png",
     width = 580,
     height = 262,
-    shift = util.by_pixel(-2, 120),
+    shift = util.by_pixel(-1, 78),
     scale = 0.5
 }
 glassSpaceRocketEntity.rocket_entity = "igrys-glass-rocket-silo-rocket"
