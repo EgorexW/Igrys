@@ -2,7 +2,7 @@ data:extend({
     {
         type = "technology",
         name = "planet-discovery-igrys",
-        icons = PlanetsLib.technology_icon_planet("__Igrys__/Assets/Technologies/igrys.png"),
+        icons = PlanetsLib.technology_icon_planet("__Igrys__/Assets/Technologies/igrys.png", 256, 0.89),
         icon_size = 256,
         effects = {
             {
