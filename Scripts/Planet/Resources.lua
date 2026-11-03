@@ -185,7 +185,52 @@ data:extend{
         },
         map_color = {0, 0, 1},
         map_grid = false
-    }
+    }, {
+        type = "resource",
+        name = "igrys-light-oil",
+        icon = "__base__/graphics/icons/crude-oil-resource.png",
+        flags = {"placeable-neutral"},
+        category = "basic-fluid",
+        subgroup = "mineable-fluids",
+        order="a-b-a",
+        infinite = true,
+        highlight = true,
+        minimum = 60000,
+        normal = 300000,
+        infinite_depletion_amount = 10,
+        resource_patch_search_radius = 12,
+        tree_removal_probability = 0.7,
+        tree_removal_max_distance = 32 * 32,
+        minable =
+        {
+            mining_time = 1,
+            results =
+            {
+                {
+                    type = "fluid",
+                    name = "light-oil",
+                    amount_min = 10,
+                    amount_max = 10,
+                    independent_probability = 1
+                },
+            },
+        },
+        collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
+        selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+        stage_counts = {0},
+        stages =
+        {
+            sheet = util.sprite_load("__base__/graphics/entity/crude-oil/crude-oil",
+                    {
+                        priority = "extra-high",
+                        scale = 0.5,
+                        variation_count = 1,
+                        frame_count = 4,
+                    })
+        },
+        map_color = {0.602, 0.524, 0.167},
+        map_grid = false
+    },
 }
 
 -- Todo add tint to the sprite
