@@ -70,7 +70,7 @@ data:extend{
     {
         type = "recipe",
         name = "igrys-production-science-pack",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         energy_required = 20,
         ingredients =
         {

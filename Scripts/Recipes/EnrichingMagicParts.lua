@@ -2,7 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "igrys-rich-magic-part-1",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         allow_productivity = true,
         ingredients = {
             {type="item", name="igrys-magic-part-1", amount=1},
@@ -16,7 +16,7 @@ data:extend({
     }, {
         type = "recipe",
         name = "igrys-rich-magic-part-2",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         allow_productivity = true,
         ingredients = {
             {type="item", name="igrys-magic-part-2", amount=1},
@@ -30,7 +30,7 @@ data:extend({
     }, {
         type = "recipe",
         name = "igrys-rich-magic-part-3",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         allow_productivity = true,
         ingredients = {
             {type="item", name="igrys-magic-part-3", amount=1},

@@ -11,7 +11,7 @@ data:extend({
     }, {
         type = "recipe",
         name = "igrys-strong-barrel",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         allow_productivity = true,
         ingredients = {
             { type = "item", name = "igrys-cermite", amount = 5 },
@@ -41,7 +41,7 @@ data:extend({
     }, {
         type = "recipe",
         name = "igrys-magic-fluid-barrel",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         allow_productivity = false,
         allow_quality = false,
         ingredients = {
@@ -58,7 +58,7 @@ data:extend({
         type = "recipe",
         name = "empty-igrys-magic-fluid-barrel",
         subgroup = "igrys-barreling",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         allow_productivity = false,
         allow_quality = false,
         ingredients = {

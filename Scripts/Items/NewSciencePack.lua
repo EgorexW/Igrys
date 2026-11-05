@@ -12,7 +12,7 @@ data:extend{
     }, {
         type = "recipe",
         name = "igrys-mineral-science-pack",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         energy_required = 60,
         ingredients = {
             {type = "item", name = "automation-science-pack", amount = 10},

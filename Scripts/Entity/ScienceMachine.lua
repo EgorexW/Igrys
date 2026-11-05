@@ -123,7 +123,7 @@ data:extend{
     }, {
         type = "recipe",
         name = "igrys-science-enhancer-machine",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         ingredients =
         {
             {type="item", name="processing-unit", amount=25},

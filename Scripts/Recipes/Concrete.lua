@@ -2,7 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "igrys-raw-cermite-concrete-subproduct",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         allow_productivity = true,
         ingredients = {
             {type="item", name="igrys-cermet", amount=10}

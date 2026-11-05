@@ -16,7 +16,6 @@ local function CreateRecipe(recipe, sciencePack)
         newRecipe.name = "igrys-" .. recipe.name .. "-enhanced"
         newRecipe.baseRecipe = recipe.name
         newRecipe.categories = {"igrys-enriched-science-pack"}
-        newRecipe.enabled = settings.startup["igrys-enable-all"].value or newRecipe.enabled
         newRecipe.subgroup = "igrys-enriched-science-pack"
         newRecipe.auto_recycle = false
         newRecipe.hidden_in_factoriopedia = true

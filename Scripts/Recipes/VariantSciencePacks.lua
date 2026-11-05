@@ -2,7 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "igrys-automation-science-pack",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         energy_required = 10,
         ingredients = {
             {type = "item", name = "copper-plate", amount = 3},

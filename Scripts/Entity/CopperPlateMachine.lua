@@ -106,7 +106,7 @@ local restrictedRecipe =
     {
         type = "recipe",
         name = "igrys-copper-plate-machine",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         ingredients = {
             {type="item", name="igrys-glass", amount=50},
             {type="item", name="plastic-bar", amount=20},

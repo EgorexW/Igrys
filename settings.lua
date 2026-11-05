@@ -61,11 +61,5 @@ data:extend({
         forced_value = false,
         hidden = true,
         default_value = false
-    }, {
-        type = "bool-setting",
-        name = "igrys-enable-all",
-        setting_type = "startup",
-        default_value = false,
-        hidden = true
     }
 })

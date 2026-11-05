@@ -12,7 +12,7 @@ data:extend{
     }, {
         type = "recipe",
         name = "igrys-cermet",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         allow_productivity = true,
         ingredients = {
             {type="fluid", name="light-oil", amount=25},
@@ -39,7 +39,7 @@ data:extend{
     }, {
         type = "recipe",
         name = "igrys-raw-cermite",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         allow_productivity = true,
         ingredients = {
             {type="item", name="igrys-cermet", amount=5}

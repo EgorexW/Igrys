@@ -68,7 +68,7 @@ glassSpaceRocketRecipe.ingredients = {
     {type="item", name="igrys-conductive-brick", amount=200}
 }
 glassSpaceRocketRecipe.main_product = "igrys-glass-space-rocket"
-glassSpaceRocketRecipe.enabled = settings.startup["igrys-enable-all"].value
+glassSpaceRocketRecipe.enabled = false
 
 local glassRocketPartRecipe = table.deepcopy(data.raw["recipe"]["rocket-part"])
 glassRocketPartRecipe.name = "igrys-glass-rocket-part"

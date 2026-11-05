@@ -13,7 +13,7 @@ local glass = {
     local glassRecipe = {
         type = "recipe",
         name = "igrys-glass",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         allow_productivity = true,
         ingredients = {{type="item", name="stone", amount=300}},
         results = {

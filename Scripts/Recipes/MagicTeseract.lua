@@ -6,7 +6,7 @@ data:extend({
         name = "igrys-magic-teseract-1",
         categories = {"advanced-crafting"},
         subgroup = "igrys-magic",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         energy_required = 10,
         ingredients = {
             {type = "item", name = "igrys-rich-magic-part-1", amount = partsPerTeseract},
@@ -24,7 +24,7 @@ data:extend({
         name = "igrys-magic-teseract-2",
         categories = {"advanced-crafting"},
         subgroup = "igrys-magic",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         energy_required = 10,
         ingredients = {
             {type = "item", name = "igrys-magic-part-1", amount = partsPerTeseract},
@@ -42,7 +42,7 @@ data:extend({
         name = "igrys-magic-teseract-3",
         categories = {"advanced-crafting"},
         subgroup = "igrys-magic",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         energy_required = 10,
         ingredients = {
             {type = "item", name = "igrys-magic-part-1", amount = partsPerTeseract},
@@ -60,7 +60,7 @@ data:extend({
         name = "igrys-rich-magic-teseract",
         categories = {"advanced-crafting"},
         subgroup = "igrys-magic",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         energy_required = 10,
         ingredients = {
             {type = "item", name = "igrys-rich-magic-part-1", amount = partsPerTeseract},

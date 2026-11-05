@@ -155,7 +155,7 @@ local restrictedRecipe =
 {
     type = "recipe",
     name = "igrys-magic-pumpjack",
-    enabled = settings.startup["igrys-enable-all"].value,
+    enabled = false,
     ingredients = {
         {type="fluid", name="water", amount=100},
         {type="item", name="steel-plate", amount=20},

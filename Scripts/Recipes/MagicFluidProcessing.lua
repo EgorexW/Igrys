@@ -4,7 +4,7 @@ data:extend({
         name = "igrys-magic-fluid-processing",
         categories = {"chemistry"},
         subgroup = "igrys-magic",
-        enabled = settings.startup["igrys-enable-all"].value,
+        enabled = false,
         energy_required = 5,
         ingredients = {
             {type = "fluid", name = "igrys-magic-fluid", amount = 100},
