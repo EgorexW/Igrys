@@ -5,6 +5,8 @@ Date: 2026-11-05
     - Copper plate machine and science enhancer machine can now be connected to the circuit and logistic networks
   Tweaks:
     - Removed the hidden "enable all recipes" startup setting
+  Bugfixes:
+    - Igrys production science pack recipe icon now shows the maglev rail instead of the normal rail
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.41
 Date: 2026-11-04

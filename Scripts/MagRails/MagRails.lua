@@ -58,13 +58,14 @@ if tech then
     })
 end
 
-local maglevRailIcon = "__base__/graphics/icons/rail.png"
+local maglevRailIcon = {icon = "__base__/graphics/icons/rail.png"}
 local maglevRailPlanner = data.raw["rail-planner"] and data.raw["rail-planner"]["maglev-rail"]
 if maglevRailPlanner then
-    maglevRailIcon = maglevRailPlanner.icon
-        or (maglevRailPlanner.icons and maglevRailPlanner.icons[1] and maglevRailPlanner.icons[1].icon)
-        or maglevRailIcon
+    maglevRailIcon = maglevRailPlanner.icons and maglevRailPlanner.icons[1] or {icon = maglevRailPlanner.icon}
 end
+-- The maglev rail is the base rail icon tinted cyan, so the tint must be carried over
+local productionScienceIcons = MadeFromIcons(data.raw["item"]["production-science-pack"].icon, maglevRailIcon.icon)
+productionScienceIcons[2].tint = maglevRailIcon.tint
 
 data:extend{
     {
@@ -79,7 +80,7 @@ data:extend{
             {type = "item", name = "maglev-rail", amount = 30}
         },
         results = {{type="item", name="production-science-pack", amount=5}},
-        icons = MadeFromIcons(data.raw["item"]["production-science-pack"].icon, maglevRailIcon),
+        icons = productionScienceIcons,
         order = "ez[production-science-pack]",
         allow_productivity = true
     },
