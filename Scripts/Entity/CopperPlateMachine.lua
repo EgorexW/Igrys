@@ -89,6 +89,8 @@ data:extend({
             }
         },
         show_recipe_icon = false,
+        circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
+        circuit_connector = circuit_connector_definitions["electromagnetic-plant"],
     }, {
         type = "item",
         name = "igrys-copper-plate-machine",
@@ -121,5 +123,3 @@ local restrictedRecipe =
     }
 
 data:extend{restrictedRecipe}
-
--- Todo add circuit network support

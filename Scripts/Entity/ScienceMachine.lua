@@ -109,6 +109,8 @@ data:extend{
          energy_usage = "6900kW",
          module_slots = 1,
          allowed_effects = { "consumption", "speed", "productivity", "pollution", "quality" },
+         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
+         circuit_connector = circuit_connector_definitions["foundry"],
     }, {
         type = "item",
         name = "igrys-science-enhancer-machine",
@@ -139,7 +141,5 @@ data:extend{
     }
 }
 
--- Todo add circuit network support
--- Todo Make productivity raise with quality
 
 PlanetsLib.set_default_import_location("igrys-science-enhancer-machine", "igrys")
