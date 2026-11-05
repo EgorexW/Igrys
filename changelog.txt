@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.42
+Date: 2026-11-05
+  Features:
+    - Copper plate machine and science enhancer machine can now be connected to the circuit and logistic networks
+  Tweaks:
+    - Removed the hidden "enable all recipes" startup setting
+---------------------------------------------------------------------------------------------------
 Version: 1.5.41
 Date: 2026-11-04
   Bugfixes:
